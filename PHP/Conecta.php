@@ -1,18 +1,12 @@
 <?php 
 
 // Conectando, seleccionando la base de datos
-$link = mysql_connect('localhost', 'root', 'root')
-    or die('No se pudo conectar: ' . mysql_error() . $cone=1);
+$link = mysql_connect('localhost', 'root', '')
+    or die('No se pudo conectar: ' . mysql_error());
 //echo 'Connected successfully';
 mysql_select_db('osteochi_nueva') or die('No se pudo seleccionar la base de datos');
 
-if($cone == 1){
-    // Conectando, seleccionando la base de datos
-$link = mysql_connect('localhost', 'root', '')
-    or die('No se pudo conectar: ' . mysql_error() . $cone=2);
-//echo 'Connected successfully';
-mysql_select_db('osteochi_nueva') or die('No se pudo seleccionar la base de datos');
-}
+
 
 
 /*
