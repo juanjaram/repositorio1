@@ -1,5 +1,6 @@
 <?php 
 include ("./PHP/Conecta.php"); 
+
 include ("./PHP/mostrarhome.php"); 
 
 ?>
