@@ -267,6 +267,7 @@ include ("./PHP/mostrarhome.php");
 </div>
 <!-- que es la Osteopatia 
 ================================================== -->
+<div style="background: #065248; margin: 0 0 -32px 0;">
 <div class="row">
 	<div class="twelve columns">
             <h4 style="text-align: Center;">¿Que es la Osteopatia?</h4>
@@ -276,7 +277,7 @@ include ("./PHP/mostrarhome.php");
                 las articulaciones y el tejido conectivo no solo tienen la función evidente de formar parte de nuestro 
                 cuerpo, sino que desempeñan un papel central en el mantenimiento de la salud.</p>
 	</div>
-</div>
+</div></div>
 <!-- FOOOTER 
 ================================================== -->
 <div id="footer">
