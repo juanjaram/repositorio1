@@ -392,7 +392,7 @@ div.button-bar ul.button-group:last-child { margin-left: 0 }
 .nav-bar > li.active { }
 .nav-bar > li.active > a { cursor: pointer }
 .nav-bar > li.active:hover { cursor: default}
-.nav-bar > li:hover {background: #065248;}
+.nav-bar > li:hover {background: #065248}
 .nav-bar > li > a { color: #333 }
 .nav-bar > li ul { margin-bottom: 0 }
 .nav-bar > li .flyout { display: none }
