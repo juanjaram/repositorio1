@@ -18,7 +18,7 @@ include ("./PHP/mostrarhome.php");
 <meta charset="utf-8"/>
 <!-- Set the viewport width to device width for mobile -->
 <meta name="viewport" content="width=device-width"/>
-<title>Studio Francesca - Premium Theme by WowThemes.net</title>
+<title>Home - Bienvenido a Osteochile</title>
 <!-- CSS Files-->
 <link rel='stylesheet' type='text/css' href='slider/css-slider.css'/>
 <link rel="stylesheet" href="stylesheets/style.css">
@@ -44,18 +44,9 @@ include ("./PHP/mostrarhome.php");
 
 <!-- HIDDEN PANEL 
 ================================================== -->
-<div id="panel">
-	<div class="row">
-		<div class="twelve columns">
-			<img src="images/info.png" class="pics" alt="info">
-			<div class="infotext">
-				Thank you for visiting my theme! Replace this with your message to visitors.
-			</div>
-		</div>
-	</div>
-</div>
+
 <p class="slide">
-	<a href="#" class="btn-slide"></a>
+	
 </p>
 <!-- HEADER
 ================================================== -->
@@ -133,10 +124,12 @@ include ("./PHP/mostrarhome.php");
 <div id="ei-slider" class="ei-slider">
 	<ul class="ei-slider-large">
 		<li>
-		<img src="http://placehold.it/1400x500/222" alt="image01" class="responsiveslide">
+                    <img src="images/imagen-rotator2.jpg" alt="image01" class="responsiveslide">
 		<div class="ei-title">
-			<h2>Dare to</h2>
-			<h3>Dream</h3>
+			<h2>PRIMERA JORNADA / TALLER NACIONAL</h2>
+			<h3>de Osteopatía en Concepción</h3>
+                        <p>28 de marzo del 2015 - Hotel Radisson</p>
+                        <a href=""> INSCRÍBETE AQUÍ</a>
 		</div>
 		</li>
 		<li>
@@ -206,7 +199,7 @@ include ("./PHP/mostrarhome.php");
 	<!-- slider-thumbs -->
 	<ul class="ei-slider-thumbs">
 		<li class="ei-slider-element">Current</li>
-		<li><a href="#">Slide 1</a><img src="http://placehold.it/150x59/444" class="slideshowthumb" alt="thumb01"/></li>
+                <li><a href="#">Slide 1</a><img src="images/imagen-rotator2.jpg" class="slideshowthumb" alt="thumb01" width="150"/></li>
 		<li><a href="#">Slide 2</a><img src="http://placehold.it/150x59/444" class="slideshowthumb" alt="thumb02"/></li>
 		<li><a href="#">Slide 3</a><img src="http://placehold.it/150x59/444" class="slideshowthumb" alt="thumb03"/></li>
 		<li><a href="#">Slide 4</a><img src="http://placehold.it/150x59/444" class="slideshowthumb" alt="thumb04"/></li>
