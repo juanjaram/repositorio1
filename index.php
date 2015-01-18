@@ -284,11 +284,25 @@ include ("./PHP/mostrarhome.php");
 	<p class="back-top floatright">
 		<a href="#top"><span></span></a>
 	</p>
+
 	<div class="four columns">
 		<h1>ABOUT US</h1>
 		 Our goal is to keep clients satisfied!
 	</div>
-	<div class="four columns">
+
+<div class="four columns">
+		<h1 class="newsmargin">NEWSLETTER</h1>
+		<div class="row collapse newsletter floatright">
+			<div class="ten mobile-three columns">
+				<input type="text" class="nomargin" placeholder="Ingresa tu e-mail">
+			</div>
+			<div class="two mobile-one columns">
+				<a href="#" class="postfix button expand">GO</a>
+			</div>
+		</div>
+	</div>
+
+<div class="four columns">
 		<h1>GET SOCIAL</h1>
 		<div class="social facebook">
 			<a href="#"></a>
@@ -306,17 +320,7 @@ include ("./PHP/mostrarhome.php");
 			<a href="#"></a>
 		</div>
 	</div>
-
-
-
-
-
-
-	<div class="four columns">
-		
-		<iframe style="height:160px; width:100%;"  class="gmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3193.642260862837!2d-73.04147399999998!3d-36.8270915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9669b5d347b4c125%3A0x655becddc4ffa34f!2zT25nb2xtbyAxNzQsIENvbmNlcGNpw7NuLCBCaW9iw61v!5e0!3m2!1ses!2scl!4v1421265233578" width="600" height="450" frameborder="0" style="border:0"></iframe>
 	
-	</div>
 
 
 
