@@ -235,23 +235,11 @@ include ("./PHP/mostrarhome.php");
 <!-- Start WOWSlider.com -->
 <iframe src="videos/index.php" style="width:325px;height:245px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
 <!-- End WOWSlider.com -->
-            
+            <br/>
        </div>
     <div class="four columns">
-		<h5>Logos</h5>
-		<p>
-			 Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.
-		</p>
-		<p>
-			<a href="#" class="readmore">Learn more</a>
-		</p>
-	</div>
-	<div class="four columns">
-		<h5>Noticias</h5>
-            
-	
-		<div id="testimonials">
-                    <?php
+		
+		<?php
                     while ($rnoticias=  mysql_fetch_array($sqlnoticias)){
                         $idnoticia=$rnoticias['idnot'];
                         $titulonoticia=$rnoticias['titulo_not'];
@@ -260,22 +248,23 @@ include ("./PHP/mostrarhome.php");
                         $fotonoticia=$rnoticias['img_not'];
                     
                     ?>
-			<blockquote>
+			<h5><?php echo($epigrafenoticia); ?></h5>
+                        <h4><?php echo($titulonoticia); ?></h4>
                             <p><?php echo($bajadanoticia); ?></p>
 		<p>
 			<a href="#" class="readmore">Leer Mas</a>
 		</p>
-			</blockquote>
-                    <?php } ?>
-				
-		</div>
-		<!--end Noticias-->    
+			
+                    
 	</div>
+	
 	<div class="four columns">
-		<h5>Foto</h5>
+            <img src="images/Noticias/<?php echo($fotonoticia); ?>" width="95%" style="box-shadow: 0 0 1px #000;"/>
 		
 	</div>
+    <?php } ?>
 </div>
+
 
 <!-- que es la Osteopatia 
 ================================================== -->
