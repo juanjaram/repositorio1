@@ -1,7 +1,7 @@
 <?php
 
 
-$sqlnoticias=  mysql_query("SELECT * FROM `noticias` ");
+$sqlnoticias=  mysql_query("SELECT * FROM `noticias` ORDER BY `noticias`.`fecha_not` DESC  limit 1 ");
 
 $sqlvideo= mysql_query("SELECT * FROM `videos` ");
 

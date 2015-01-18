@@ -229,18 +229,23 @@ include ("./PHP/mostrarhome.php");
 <!-- CONTENT 
 ================================================== -->
 <div class="row">
-	<div class="twelve columns">
-		<div class="centersectiontitle">
-			<h4>Contenido</h4>
-		</div>
-	</div>
-	<div class="four columns">
+	
+    <br/><div class="four columns">
 	
 <!-- Start WOWSlider.com -->
 <iframe src="videos/index.php" style="width:325px;height:245px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
 <!-- End WOWSlider.com -->
             
        </div>
+    <div class="four columns">
+		<h5>Logos</h5>
+		<p>
+			 Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow. Nulla corned beef sunt ball tip, qui bresaola enim jowl. Capicola short ribs minim salami nulla nostrud pastrami.
+		</p>
+		<p>
+			<a href="#" class="readmore">Learn more</a>
+		</p>
+	</div>
 	<div class="four columns">
 		<h5>Noticias</h5>
             
@@ -271,8 +276,7 @@ include ("./PHP/mostrarhome.php");
 		
 	</div>
 </div>
-<div class="hr">
-</div>
+
 <!-- que es la Osteopatia 
 ================================================== -->
 <div style="background: #065248; margin: 0 0 -32px 0;">
