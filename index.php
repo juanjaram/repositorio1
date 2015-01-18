@@ -62,7 +62,7 @@ include ("./PHP/mostrarhome.php");
 <div class="row">	
 		<div class="four columns">
 			<div class="logo">
-                            <a href="index.html"><img width="100%"  src="images/logo-transp-menu.png"></a>
+                            <a href="index.html"><img width="235px" src="images/logo-transp-menu.png"></a>
 			</div>
 		</div>
 		<div class="eight columns noleftmarg">		
