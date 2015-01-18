@@ -191,15 +191,7 @@
 	height: 100%;
 	width: 100%;
 }
-.ei-slider-large li img{
-	width: 100%;
-	filter: url(filters.svg#grayscale); /* Firefox */
-		filter: gray; /* IE */
-		-webkit-filter: grayscale(1); /* Webkit */
-		opacity:1;
-		
-		-webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
-}
+
 .ei-title{
 	position: absolute;	
 	top: 30%;
