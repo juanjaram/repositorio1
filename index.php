@@ -228,11 +228,11 @@ include ("./PHP/mostrarhome.php");
     <br/><div class="four columns">
 
 
-<div class="video">
+        <div class="video" style="background: #7bbb12;">
     <div class="mas-not"><h4 class="h4video">Videos </h4></div>
               <script type="text/javascript" src="http://c520866.r66.cf2.rackcdn.com/1/js/easy_rotator.min.js"></script>
                   <div class="dwuserEasyRotator" style="width: 100%; height: 220px; position:relative; text-align: left; float: left;" data-erconfig="{autoplayEnabled:false, autoplayDelay:6000, autoplayStopOnInteraction:false, lpp:'102-105-108-101-58-47-47-47-67-58-47-85-115-101-114-115-47-65-118-101-110-103-101-114-47-68-111-99-117-109-101-110-116-115-47-69-97-115-121-82-111-116-97-116-111-114-80-114-101-118-105-101-119-47-112-114-101-118-105-101-119-95-115-119-102-115-47'}" data-ername="videos">
-                    <div data-ertype="content" style="display: none;"><ul data-erlabel="Main Category">
+                    <div data-ertype="content" style="display: none; float: left;"><ul data-erlabel="Main Category">
                             <?php
                             while ($rvi=  mysql_fetch_array($sqlvideo)){
                                 $idvideo=$rvi['idvideo'];
@@ -243,7 +243,7 @@ include ("./PHP/mostrarhome.php");
 
                             ?>
                             <li>
-                             <a class="mainLink" href="http://www.youtube.com/embed/<?php echo($urlvideo); ?>?hd=1&autoplay=1&rel=0" rel="shadowbox;width=720;height=480"><img class="main" src="youtube/img/videos/<?php echo($fotovideo); ?>" /></a> <img class="thumb" src="youtube/img/videos/<?php echo($fotovideo); ?>" />
+                                <a class="mainLink" style="float: left;" href="http://www.youtube.com/embed/<?php echo($urlvideo); ?>?hd=1&autoplay=1&rel=0" rel="shadowbox;width=720;height=480"><img class="main" src="youtube/img/videos/<?php echo($fotovideo); ?>" width="100%" style="float: left; width: 100%;"/></a> <img class="thumb" src="youtube/img/videos/<?php echo($fotovideo); ?>"  />
                             </li>
                             <?php } ?>
 
