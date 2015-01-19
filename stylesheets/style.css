@@ -785,8 +785,8 @@ a:focus { outline: none }
 .centersectiontitle h4 { font-size: 23px; background: #fff; display: inline; padding-right: 10px; padding-left: 10px; }
 .wrappic { border: 1px solid #CCCCCC; padding: 2px; }
 .wrappic:hover { border: 1px solid #CCCCCC; padding: 2px; background: url(../images/wraphover.png) repeat !important; }
-.readmore,a.readmore { cursor: pointer; border: 0px; color: #fff; padding: 6px 10px; display: inline; -webkit-transition: background-color 300ms linear; -moz-transition: background-color 300ms linear; -o-transition: background-color 300ms linear; -ms-transition: background-color 300ms linear; transition: background-color 300ms linear; }
-.readmore:hover,a.readmore:hover { background: #333; color: #fff; }
+.readmore,a.readmore { cursor: pointer; border: 0px; background: #7bbb12; color: #fff; padding: 4px 0; width: 100%; float: left; text-align: center; font-size: 16px; display: inline; -webkit-transition: background-color 300ms linear; -moz-transition: background-color 300ms linear; -o-transition: background-color 300ms linear; -ms-transition: background-color 300ms linear; transition: background-color 300ms linear; }
+.readmore:hover,a.readmore:hover { background: #7bbb12; color: #fff; }
 #testimonials { margin: 10px 0 20px;border-left: solid 6px #33877d;}
 #testimonials blockquote {  font-family: Georgia, "Times New Roman", Times, serif; font-style: italic; color: #808080; display: block; }
 #testimonials blockquote p { margin: 0 !important; padding: 5px!important; }

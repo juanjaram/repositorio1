@@ -1,0 +1,61 @@
+
+.leermas, .leermas-1{
+    background: #7bbb12;
+    color: #FFFFFF;
+    padding: 4px 0;
+    
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    
+}
+.leermas{
+    margin: 0 0 20px 30%;
+    width: 40%;
+}
+.leermas-1{
+    width: 100%;
+    margin: 0 0 20px 0;
+    
+}
+.leermas:hover, .leermas-1:hover{
+    color: #FFFFFF;
+}
+.h5-3, .h4-3{
+    color: #065248;
+    float: left;
+    margin: 5px 0;
+}
+.p-3{
+    float: left;
+    text-align: justify;
+}
+.h4-2, .p-2{
+    text-align: Center;
+    color: #FFFFFF;
+}
+
+.p-2{
+    font-size: 16px;
+}
+.h4video{
+    background: #7bbb12;
+    color: #ffffff;
+    text-align: center;
+    padding: 4px 0;
+    width: 100%;
+    margin: 0;
+    float: left;
+}
+
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 19-01-2015, 19:58:04
+    Author     : juan
+*/
+
