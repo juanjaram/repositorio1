@@ -280,9 +280,13 @@ include ("./PHP/mostrarhome.php");
 		<a href="#top"><span></span></a>
 	</p>
 
-	<div class="four columns">
-		<h1>ABOUT US</h1>
-		 Our goal is to keep clients satisfied!
+	<div  class="four columns">
+		<h1><img src="images/logo-transp-footer.png"></h1>
+		 <h1 color="white">CONTACTANOS!</h1></br>
+		 Osteochile</br>
+		 Camino a Santa Juana, Kilometro 0,8. Concepciòn</br>
+		 +56 9 795 746 90</br>
+		 contacto@osteochile.cl
 	</div>
 
 <div class="four columns">
@@ -295,6 +299,7 @@ include ("./PHP/mostrarhome.php");
 				<a href="#" class="postfix button expand">GO</a>
 			</div>
 		</div>
+		<div><img  style="margin-top:10%; position:relative; left:-42%" src="images/logo-atsa.png"><div style="float:right;">Con el respaldo Academico de la Escuela de Osteopatia </br> A.T.S.A (Francia), 40 años enseñando la Osteopatia</div></div>
 	</div>
 
 <div class="four columns">
@@ -325,10 +330,10 @@ include ("./PHP/mostrarhome.php");
 <div class="copyright">
 	<div class="row">
 		<div class="six columns">
-			 &copy;<span class="small"> Copyright 2013 Your Agency Name</span>
+			 &copy;<span class="small"> </span>
 		</div>
 		<div class="six columns">
-			<span class="small floatright"> Purchase "Studio Francesca" - WowThemes.net</span>
+			<span class="small floatright"> </span>
 		</div>
 	</div>
 </div>

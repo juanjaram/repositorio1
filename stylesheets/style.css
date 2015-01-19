@@ -752,7 +752,7 @@ a.projectdetail { background: #33877d; color: #fff; padding: 7px 7px 6px 7px; fo
 /* CONTENT ---------------------- */
 .nomargin { margin-bottom: 0px !important }
 .noleftmargin { margin-left: 0px; padding-left: 0px; }
-.floatright,.right { float: right }
+.floatright,.right { float: left }
 .left { float: left }
 .text-left,.leftalign { text-align: left }
 .text-right { text-align: right }
