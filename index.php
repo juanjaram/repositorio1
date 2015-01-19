@@ -331,7 +331,7 @@ include ("./PHP/mostrarhome.php");
                 los problemas mecánicos del cuerpo. Se basa en la creencia que los huesos, los músculos, 
                 las articulaciones y el tejido conectivo no solo tienen la función evidente de formar parte de nuestro 
                 cuerpo, sino que desempeñan un papel central en el mantenimiento de la salud.</p>
-            <a href="#" class="leermas">Leer Mas</a>
+            <a href="#" class="leermas">Conoce los Campos de Aplicación</a>
 	</div>
 </div></div>
 <!-- FOOOTER 
