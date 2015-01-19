@@ -298,8 +298,12 @@ include ("./PHP/mostrarhome.php");
 			<div class="two mobile-one columns">
 				<a href="#" class="postfix button expand">GO</a>
 			</div>
+			<img  style="margin-top:25%;  float:left;" src="images/logo-atsa.png">
+
 		</div>
-		<div><img  style="margin-top:10%; position:relative; left:-42%" src="images/logo-atsa.png"><div style="float:right;">Con el respaldo Academico de la Escuela de Osteopatia </br> A.T.S.A (Francia), 40 años enseñando la Osteopatia</div></div>
+		<div style="margin-top:25%">Con el respaldo Academico de la Escuela de Osteopatia </br> A.T.S.A (Francia), 40 años enseñando la Osteopatia</div>
+
+
 	</div>
 
 <div class="four columns">
