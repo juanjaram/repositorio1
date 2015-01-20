@@ -9,9 +9,12 @@ $link=mysql_connect($server, $username, $password);
 
 
 if(!$link){
-    $link=mysql_connect($server, $username, 'root')
-   or die('No se pudo conectar: ' . mysql_error());
+    $link=mysql_connect($server, $username, 'root');
+   
   
+}else{
+    $link=mysql_connect($server, $username, 'osteochile2014')
+   or die('No se pudo conectar: ' . mysql_error());
 }
 
 
