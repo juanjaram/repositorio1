@@ -695,7 +695,7 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul { left: 10em; /* ma
 .sf-menu a.sf-with-ul { min-width: 1px }
 .sf-sub-indicator { position: absolute; display: block; right: .75em; top: 1.05em; /* IE6 only */ width: 10px; height: 10px; text-indent: -999em; overflow: hidden; }
 a > .sf-sub-indicator { /* give all except IE6 the correct values */ top: 0.9em; background-position: 0 -100px; }
-#nav-wrap { margin-top: 30px }
+#nav-wrap { margin-top: 30px;}
 a:focus > .sf-sub-indicator,
 a:hover > .sf-sub-indicator,
 a:active > .sf-sub-indicator,
