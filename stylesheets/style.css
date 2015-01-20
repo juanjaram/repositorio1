@@ -391,10 +391,10 @@ div.button-bar ul.button-group:last-child { margin-left: 0 }
 .nav-bar > li:last-child { }
 .nav-bar > li.active { }
 .nav-bar > li.active > a { cursor: pointer; }
-.nav-bar > li.active:hover { cursor: default}
+.nav-bar > li.active:hover { cursor: default }
 .nav-bar > li:hover {background: #065248;}
 .nav-bar > li > a {color: #333; }
-.nav-bar > li ul { margin-bottom: 0 }
+.nav-bar > li ul { margin-bottom: 0  }
 .nav-bar > li .flyout { display: none }
 .nav-bar > li.has-flyout > a:first-child { position: relative }
 .nav-bar > li.has-flyout > a:first-child:after { content: ""; display: block; width: 0; height: 0; position: absolute; right: 0px; top: 0px; }
@@ -420,9 +420,9 @@ div.button-bar ul.button-group:last-child { margin-left: 0 }
 .flyout.left { right: auto; left: -2px; }
 .flyout.up { top: auto; bottom: 39px; }
 ul.flyout,.nav-bar li ul { padding: 0; list-style: none; }
-ul.flyout li,.nav-bar li ul li {background: red; }
+ul.flyout li,.nav-bar li ul li {/*background: red;*/ position: relative; left: -25%;}
 ul.flyout li a,.nav-bar li ul li a { margin: 0px 20px; background: #fff; border: 1px solid #e6e6e6; border-width: 0px 0px 1px 0; color: #555; display: block; font-size: 12px; height: auto; line-height: 1; padding: 12px 0px; -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; text-align: center; }
-ul.flyout li a:hover,.nav-bar li ul li a:hover { background: #fff; color: #333; }
+ul.flyout li a:hover,.nav-bar li ul li a:hover { background: #fff; color: #333;}
 ul.flyout li.active,.nav-bar li ul li.active { margin-top: 0; border-top: 1px solid #4d4d4d; border-left: 1px solid #1a1a1a; }
 ul.flyout li.active a,.nav-bar li ul li.active a { background: #fff; border: none; color: #fff; height: auto; margin: 0; position: static; top: 0; -webkit-box-shadow: 0 0 0; -moz-box-shadow: 0 0 0; box-shadow: 0 0 0; }
 /* Correct timer in IE */
@@ -723,7 +723,7 @@ li.sfHover > a > .sf-sub-indicator { background-position: -10px -100px }
 .portofoliothumb { position: relative; width: 100%; height: 100%; cursor: pointer; border: none; }
 .portofoliothumb:hover { opacity: 1 }
 .portofoliothumb > img { width: 100%!important; height: 250px; }
-a.projectdetail { background: #33877d; color: #fff; padding: 7px 7px 6px 7px; font-size: 12px; border-radius: 3px; -webkit-transition-property: color, background; -webkit-transition-duration: 1s, 1s; text-shadow: 1px 1px 1px #111; }
+a.projectdetail { background: #33877D; color: #fff; padding: 7px 7px 6px 7px; font-size: 12px; border-radius: 3px; -webkit-transition-property: color, background; -webkit-transition-duration: 1s, 1s; text-shadow: 1px 1px 1px #111; }
 .projectdetail:hover { background: #70aba4; color: #fff; text-shadow: 1px 1px 1px #111; }
 .galleryicon { z-index: 0; margin-right: 5px; width: 15px; }
 .portofoliobutton { display: inline-block; *display: inline; padding: 4px 14px; margin-bottom: 0; *margin-left: .3em; font-size: 14px; line-height: 20px; *line-height: 20px; color: #333333; text-align: center; text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75); vertical-align: middle; cursor: pointer; background-color: #f5f5f5; *background-color: #e6e6e6; background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6)); background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6); background-image: -o-linear-gradient(top, #ffffff, #e6e6e6); background-image: linear-gradient(to bottom, #ffffff, #e6e6e6); background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6); background-repeat: repeat-x; border: 1px solid #bbbbbb; *border: 0; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0); filter: progid:dximagetransform.microsoft.gradient(enabled=false); *zoom: 1; -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); border-color: #c5c5c5; border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25); }
@@ -787,7 +787,7 @@ a:focus { outline: none }
 .wrappic:hover { border: 1px solid #CCCCCC; padding: 2px; background: url(../images/wraphover.png) repeat !important; }
 .readmore,a.readmore { cursor: pointer; border: 0px; background: #7bbb12; color: #fff; padding: 4px 0; width: 100%; float: left; text-align: center; font-size: 16px; display: inline; -webkit-transition: background-color 300ms linear; -moz-transition: background-color 300ms linear; -o-transition: background-color 300ms linear; -ms-transition: background-color 300ms linear; transition: background-color 300ms linear; }
 .readmore:hover,a.readmore:hover { background: #7bbb12; color: #fff; }
-#testimonials { margin: 10px 0 20px;border-left: solid 6px #33877d;}
+#testimonials { margin: 10px 0 20px;border-left: solid 6px #33877D;}
 #testimonials blockquote {  font-family: Georgia, "Times New Roman", Times, serif; font-style: italic; color: #808080; display: block; }
 #testimonials blockquote p { margin: 0 !important; padding: 5px!important; }
 #testimonials blockquote cite { font-style: normal; display: block; text-transform: uppercase; font-weight: bold; font-style: italic; padding-left: 5px; margin-top: 10px; }

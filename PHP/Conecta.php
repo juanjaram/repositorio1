@@ -6,7 +6,7 @@ $link = mysql_connect('localhost', 'root', 'root');
 if (!$link) {
    
 $link = mysql_connect('localhost', 'root', '')
-or die('No pudo conectarse: ' . mysql_error());
+or die('No se pudo conectar: ' . mysql_error());
 }
   
 ///echo 'Connected successfully';
