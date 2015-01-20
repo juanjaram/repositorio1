@@ -64,17 +64,14 @@ include ("./PHP/mostrarhome.php");
 				
 					<li class="current">
 					<a href="index.html">HOME</a>
-						<ul>
-												
-						<li><a href="index2.html">Without slider</a></li>						
-						</ul>
+					
 					</li>
 					
 					<li>
 					<a href="#">ESCUELA</a>
 						<ul>
-						<li><a href="portofolio2.html">Jornadas</a></li>
-						<li><a href="portofolio3.html">Diplomados</a></li>
+						<li><a href="portofolio2.html">JORNADAS</a></li>
+						<li><a href="portofolio3.html">DIPLOMADOS</a></li>
 						
 						</ul>
 					</li>
@@ -359,31 +356,33 @@ include ("./PHP/mostrarhome.php");
 			<div class="two mobile-one columns">
 				<a href="#" class="postfix button expand">Enviar</a>
 			</div>
-			<img  style="margin-top:25%;  float:left;" src="images/logo-atsa.png">
+			
+<img  style="margin-top:15%" src="images/logo-atsa.png">
 
 		</div>
-		<div style="margin-top:25%; color:white;">Con el respaldo Academico de la Escuela de Osteopatia </br> A.T.S.A (Francia), 40 años enseñando la Osteopatia</div>
+
+		<div style="color:white; margin-top:20%; position:relative; left:-23%;">Con el respaldo Academico de la Escuela de Osteopatìa </br> A.T.S.A (Francia), 40 años enseñando la Osteopatìa</div>
+
+
 
 
 	</div>
 
 <div class="four columns">
-		<h1>GET SOCIAL</h1>
+		<h1>REDES SOCIALES</h1>
 		<div class="social facebook">
 			<a href="#"></a>
 		</div>
+
+		<div class="social youtube">
+			<a href="#"></a>
+		</div>
+
 		<div class="social twitter">
 			<a href="#"></a>
 		</div>
-		<div class="social deviantart">
-			<a href="#"></a>
-		</div>
-		<div class="social flickr">
-			<a href="#"></a>
-		</div>
-		<div class="social dribbble">
-			<a href="#"></a>
-		</div>
+		
+		
 	</div>
 	
 

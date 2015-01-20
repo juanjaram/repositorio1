@@ -390,10 +390,10 @@ div.button-bar ul.button-group:last-child { margin-left: 0 }
 .nav-bar > li:first-child { background: none }
 .nav-bar > li:last-child { }
 .nav-bar > li.active { }
-.nav-bar > li.active > a { cursor: pointer }
+.nav-bar > li.active > a { cursor: pointer; }
 .nav-bar > li.active:hover { cursor: default}
 .nav-bar > li:hover {background: #065248;}
-.nav-bar > li > a { color: #333 }
+.nav-bar > li > a {color: #333; }
 .nav-bar > li ul { margin-bottom: 0 }
 .nav-bar > li .flyout { display: none }
 .nav-bar > li.has-flyout > a:first-child { position: relative }
@@ -421,7 +421,7 @@ div.button-bar ul.button-group:last-child { margin-left: 0 }
 .flyout.up { top: auto; bottom: 39px; }
 ul.flyout,.nav-bar li ul { padding: 0; list-style: none; }
 ul.flyout li,.nav-bar li ul li { }
-ul.flyout li a,.nav-bar li ul li a { margin: 0px 20px; background: #fff; border: 1px solid #e6e6e6; border-width: 0px 0px 1px 0; color: #555; display: block; font-size: 12px; height: auto; line-height: 1; padding: 12px 0px; -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; }
+ul.flyout li a,.nav-bar li ul li a { margin: 0px 20px; background: #fff; border: 1px solid #e6e6e6; border-width: 0px 0px 1px 0; color: #555; display: block; font-size: 12px; height: auto; line-height: 1; padding: 12px 0px; -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; text-align: center; }
 ul.flyout li a:hover,.nav-bar li ul li a:hover { background: #fff; color: #333; }
 ul.flyout li.active,.nav-bar li ul li.active { margin-top: 0; border-top: 1px solid #4d4d4d; border-left: 1px solid #1a1a1a; }
 ul.flyout li.active a,.nav-bar li ul li.active a { background: #fff; border: none; color: #fff; height: auto; margin: 0; position: static; top: 0; -webkit-box-shadow: 0 0 0; -moz-box-shadow: 0 0 0; box-shadow: 0 0 0; }
@@ -795,7 +795,7 @@ a:focus { outline: none }
 #footer a { color: #666; font-size: 12px; }
 #footer h1 { font-size: 16px; color: #ccc; margin-bottom: 20px; }
 .newsmargin { margin-left: 46px }
-#footer .button { box-shadow: none; width: auto; nowhitespace: afterproperty; background: #065248; color: #999; cursor: pointer; display: inline-block; font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-size: 13px; font-weight: bold; line-height: 1; margin: 0; outline: none; padding: 10px 10px 11px; position: relative; text-align: center; text-decoration: none; -webkit-transition: background-color 0.15s ease-in-out; -moz-transition: background-color 0.15s ease-in-out; -o-transition: background-color 0.15s ease-in-out; transition: background-color 0.15s ease-in-out; }
+#footer .button { box-shadow: none; width: auto; nowhitespace: afterproperty; background: #065248; color: white; cursor: pointer; display: inline-block; font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-size: 13px; font-weight: bold; line-height: 1; margin: 0; outline: none; padding: 10px 10px 11px; position: relative; text-align: center; text-decoration: none; -webkit-transition: background-color 0.15s ease-in-out; -moz-transition: background-color 0.15s ease-in-out; -o-transition: background-color 0.15s ease-in-out; transition: background-color 0.15s ease-in-out; }
 #footer input[type="text"] { background: white; font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; border: 1px solid #333; -webkit-border-radius: 2px; -moz-border-radius: 2px; -ms-border-radius: 2px; -o-border-radius: 2px; border-radius: 2px; color: #999; display: block; font-size: 12px; margin: 0 0 12px 0; padding: 6px; height: 32px; width: 100%; -webkit-transition: all 0.15s linear; -moz-transition: all 0.15s linear; -o-transition: all 0.15s linear; transition: all 0.15s linear; box-shadow: none; }
 .copyright { background: #5f9508; padding: 7px 0; border-top: 1px solid #5f9508; color: #444; }
 .small { color: #444; font-size: 11px; }
@@ -815,12 +815,12 @@ a:focus { outline: none }
 .tweetarea { background: #f8f8f8 url(../images/div.png) repeat-x; margin-top: 20px; }
 .tweettext { padding: 20px 0px; margin-bottom: -37px; }
 .social { display: inline-block; cursor: pointer; width: 32px; height: 32px; margin-right: 5px; }
-.facebook { background: url(../images/socialpack/facebook.png) }
-.facebook:hover { background: url(../images/socialpack/facebooka.png) }
-.twitter { background: url(../images/socialpack/twitter.png) }
-.twitter:hover { background: url(../images/socialpack/twittera.png) }
-.dribbble { background: url(../images/socialpack/dribbble.png) }
-.dribbble:hover { background: url(../images/socialpack/dribbblea.png) }
+.facebook { background: url(../images/socialpack/facebook-icon.png) }
+.facebook:hover { background: url(../images/socialpack/facebook-icon.png) }
+.twitter { background: url(../images/socialpack/Twitter-icon.png) }
+.twitter:hover { background: url(../images/socialpack/Twitter-icon.png) }
+.youtube { background: url(../images/socialpack/Youtube-icon.png) }
+.youtube:hover { background: url(../images/socialpack/Youtube-icon.png) }
 .deviantart { background: url(../images/socialpack/deviantart.png) }
 .deviantart:hover { background: url(../images/socialpack/deviantarta.png) }
 .flickr { background: url(../images/socialpack/flickr.png) }
