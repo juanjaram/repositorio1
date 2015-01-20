@@ -304,7 +304,7 @@ include ("./PHP/mostrarhome.php");
                     ?>
         <h5 class="h5-3"><?php echo($epigrafenoticia); ?></h5>
         <h4 class="h4-3"><?php echo($titulonoticia); ?></h4>
-        <p class="p-3"><?php echo($bajadanoticia); ?></p>
+        <p class="p-3" style="height: 110px;"><?php echo($bajadanoticia); ?></p>
 		<p>
 			<a href="#" class="leermas-1" >Leer Mas</a>
 		</p>
