@@ -261,7 +261,7 @@ that IE7/8 do not support :nth-child.
 .button.medium { font-size: 14px }
 .button.small { font-size: 11px; padding: 7px 14px 8px; }
 .button.tiny { font-size: 10px; padding: 5px 10px 6px; }
-.button.expand { width: 100%; text-align: center; }
+.button.expand { width: 100%; text-align: center;}
 .button.primary { background-color: #2ba6cb }
 .button.primary:hover { background-color: #2284a1 }
 .button.primary:focus { -webkit-box-shadow: 0 0 4px #2ba6cb, 0 1px 0 rgba(255, 255, 255, 0.5) inset; -moz-box-shadow: 0 0 4px #2ba6cb, 0 1px 0 rgba(255, 255, 255, 0.5) inset; box-shadow: 0 0 4px #2ba6cb, 0 1px 0 rgba(255, 255, 255, 0.5) inset; }
@@ -750,7 +750,7 @@ a.projectdetail { background: #33877d; color: #fff; padding: 7px 7px 6px 7px; fo
 .detailslider {border:10px solid #fff;margin-top:13px;}
 
 /* CONTENT ---------------------- */
-.nomargin { margin-bottom: 0px !important }
+.nomargin { margin-bottom: 0px !important}
 .noleftmargin { margin-left: 0px; padding-left: 0px; }
 .floatright,.right { float: left }
 .left { float: left }
@@ -795,8 +795,8 @@ a:focus { outline: none }
 #footer a { color: #666; font-size: 12px; }
 #footer h1 { font-size: 16px; color: #ccc; margin-bottom: 20px; }
 .newsmargin { margin-left: 46px }
-#footer .button { box-shadow: none; width: auto; nowhitespace: afterproperty; background: #444; color: #999; cursor: pointer; display: inline-block; font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-size: 13px; font-weight: bold; line-height: 1; margin: 0; outline: none; padding: 10px 10px 11px; position: relative; text-align: center; text-decoration: none; -webkit-transition: background-color 0.15s ease-in-out; -moz-transition: background-color 0.15s ease-in-out; -o-transition: background-color 0.15s ease-in-out; transition: background-color 0.15s ease-in-out; }
-#footer input[type="text"] { background: #333; font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; border: 1px solid #333; -webkit-border-radius: 2px; -moz-border-radius: 2px; -ms-border-radius: 2px; -o-border-radius: 2px; border-radius: 2px; color: #999; display: block; font-size: 12px; margin: 0 0 12px 0; padding: 6px; height: 32px; width: 100%; -webkit-transition: all 0.15s linear; -moz-transition: all 0.15s linear; -o-transition: all 0.15s linear; transition: all 0.15s linear; box-shadow: none; }
+#footer .button { box-shadow: none; width: auto; nowhitespace: afterproperty; background: #065248; color: #999; cursor: pointer; display: inline-block; font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-size: 13px; font-weight: bold; line-height: 1; margin: 0; outline: none; padding: 10px 10px 11px; position: relative; text-align: center; text-decoration: none; -webkit-transition: background-color 0.15s ease-in-out; -moz-transition: background-color 0.15s ease-in-out; -o-transition: background-color 0.15s ease-in-out; transition: background-color 0.15s ease-in-out; }
+#footer input[type="text"] { background: white; font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; border: 1px solid #333; -webkit-border-radius: 2px; -moz-border-radius: 2px; -ms-border-radius: 2px; -o-border-radius: 2px; border-radius: 2px; color: #999; display: block; font-size: 12px; margin: 0 0 12px 0; padding: 6px; height: 32px; width: 100%; -webkit-transition: all 0.15s linear; -moz-transition: all 0.15s linear; -o-transition: all 0.15s linear; transition: all 0.15s linear; box-shadow: none; }
 .copyright { background: #5f9508; padding: 7px 0; border-top: 1px solid #5f9508; color: #444; }
 .small { color: #444; font-size: 11px; }
 .grayscale { filter: url(filters.svg#grayscale); filter: gray; -webkit-filter: grayscale(1); opacity: 1; -webkit-filter: grayscale(100%); }

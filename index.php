@@ -73,10 +73,9 @@ include ("./PHP/mostrarhome.php");
 					<li>
 					<a href="#">ESCUELA</a>
 						<ul>
-						<li><a href="portofolio2.html">2 Columns</a></li>
-						<li><a href="portofolio3.html">3 Columns</a></li>
-						<li><a href="portofolio4.html">4 Columns</a></li>						
-						<li><a href="portofoliodetail.html">Project Details</a></li>
+						<li><a href="portofolio2.html">Jornadas</a></li>
+						<li><a href="portofolio3.html">Diplomados</a></li>
+						
 						</ul>
 					</li>
 					
@@ -344,11 +343,11 @@ include ("./PHP/mostrarhome.php");
 
 	<div  class="four columns">
 		<h1><img src="images/logo-transp-footer.png"></h1>
-		 <h1 color="white">CONTACTANOS!</h1></br>
-		 Osteochile</br>
+		 <h1 style="color:white;">CONTACTANOS!</br>Osteochile</br>
 		 Camino a Santa Juana, Kilometro 0,8. Concepciòn</br>
 		 +56 9 795 746 90</br>
-		 contacto@osteochile.cl
+		 contacto@osteochile.cl</h1>
+		 
 	</div>
 
 <div class="four columns">
@@ -358,12 +357,12 @@ include ("./PHP/mostrarhome.php");
 				<input type="text" class="nomargin" placeholder="Ingresa tu e-mail">
 			</div>
 			<div class="two mobile-one columns">
-				<a href="#" class="postfix button expand">GO</a>
+				<a href="#" class="postfix button expand">Enviar</a>
 			</div>
 			<img  style="margin-top:25%;  float:left;" src="images/logo-atsa.png">
 
 		</div>
-		<div style="margin-top:25%">Con el respaldo Academico de la Escuela de Osteopatia </br> A.T.S.A (Francia), 40 años enseñando la Osteopatia</div>
+		<div style="margin-top:25%; color:white;">Con el respaldo Academico de la Escuela de Osteopatia </br> A.T.S.A (Francia), 40 años enseñando la Osteopatia</div>
 
 
 	</div>
