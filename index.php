@@ -225,7 +225,7 @@ include ("./PHP/mostrarhome.php");
 ================================================== -->
 <div class="row">
 	
-    <br/><div class="four columns">
+    <br/><div class="four columns" style="margin: 0 0 10px 0;">
 
 
         <div class="video" style="background: #7bbb12;">
@@ -313,7 +313,7 @@ include ("./PHP/mostrarhome.php");
 	</div>
 	
 	<div class="four columns">
-            <br/><br/><img src="images/Noticias/<?php echo($fotonoticia); ?>" width="100%"  style="box-shadow: 0 0 1px #000;"/>
+            <img src="images/Noticias/<?php echo($fotonoticia); ?>" width="100%"  style="box-shadow: 0 0 1px #000;"/>
 		
 	</div>
     <?php } ?>
