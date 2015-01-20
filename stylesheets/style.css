@@ -708,7 +708,7 @@ li.sfHover > a > .sf-sub-indicator { background-position: -10px -100px }
 .sf-menu ul a:active > .sf-sub-indicator,
 .sf-menu ul li:hover > a > .sf-sub-indicator,
 .sf-menu ul li.sfHover > a > .sf-sub-indicator { background-position: -10px 0 }
-.sf-shadow ul { padding: 0 8px 9px 0; border-top: 2px solid #33877D; width: 200px; }
+.sf-shadow ul { padding: 0 8px 9px 0; border-top: 2px solid #33877D;  width: 200px; }
 .sf-shadow ul.sf-shadow-off { background: transparent; }
 
 /* PORTOFOLIO */
