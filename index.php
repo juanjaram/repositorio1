@@ -21,6 +21,7 @@ include ("./PHP/mostrarhome.php");
 <meta name="viewport" content="width=device-width"/>
 <title>Home - Bienvenido a Osteochile</title>
 <!-- CSS Files-->
+<link href='http://fonts.googleapis.com/css?family=Magra' rel='stylesheet' type='text/css'/>
 <link rel='stylesheet' type='text/css' href='stylesheets/estilo.css'/>
 <link rel='stylesheet' type='text/css' href='slider/css-slider.css'/>
 <link rel="stylesheet" href="stylesheets/style.css">
