@@ -374,9 +374,9 @@ include ("./PHP/mostrarhome.php");
 <div class="four columns">
 		<h1>REDES SOCIALES</h1>
 
-                <i class="fa fa-facebook fa-2x" style="color: #7bbb12; background: #fff; border-radius: 50%; padding: 3%; "></i>
-                 <i class="fa fa-twitter fa-2x" style="color: #7bbb12; background: #fff; border-radius: 50%; padding: 3%; "></i>
-                  <i class="fa fa-youtube fa-2x" style="color: #7bbb12; background: #fff; border-radius: 50%; padding: 3%; "></i>
+                <i class="fa fa-facebook fa-2x" style="color: #7bbb12; background: #fff; border-radius: 50%; padding: 3%; height: 50px; width: 50px; text-align: center; "></i>&nbsp;
+                 <i class="fa fa-twitter fa-2x" style="color: #7bbb12; background: #fff; border-radius: 50%; padding: 3%; height: 50px; width: 50px; text-align: center; "></i>&nbsp;
+                  <i class="fa fa-youtube fa-2x" style="color: #7bbb12; background: #fff; border-radius: 50%; padding: 3%; height: 50px; width: 50px; text-align: center; "></i>
                 
 		<!--
                 <div class="social facebook">
