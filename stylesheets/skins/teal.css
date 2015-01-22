@@ -1,5 +1,5 @@
 .colorme {color:#33877d;}
-.nav-bar > li:hover, .nav-bar > li a:hover  { color: #749f93;}
+.nav-bar > li:hover, .nav-bar > li a:hover  { color: white;}
 .nav-bar > li.active > a { }
 ul.flyout li a:hover, .nav-bar li ul li a:hover {color:#749f93;}
 .flyout {border-top:2px solid #33877d;}
@@ -26,7 +26,7 @@ div.alert-box.default { background-color: #33877d;}
 .btn-slide.active { background: #33877D url(../../images/minus.png) no-repeat;}
 #footer {border-top:#5f9508 4px solid;}
 .back-top a:hover{background-color: #33877D;}
-.sf-shadow ul {border-top:2px solid #33877D;}
+.sf-shadow ul {border-top:2px solid transparent; }
 .panel {border-left:4px solid #33877D;}
 .colorbackground {background:#33877D;}
 #testimonials {border-left: solid 6px #33877d;}
