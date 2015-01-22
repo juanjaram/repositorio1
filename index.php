@@ -373,7 +373,7 @@ include ("./PHP/mostrarhome.php");
 
 <div class="four columns">
 		<h1>REDES SOCIALES</h1>
-                <i class="fa fa-youtube fa-2x">Facebook</i>
+                <i class="fa fa-youtube fa-2x"></i>
 		<div class="social facebook">
 			<a href="#"></a>
 		</div>
