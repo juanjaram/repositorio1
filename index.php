@@ -373,9 +373,9 @@ include ("./PHP/mostrarhome.php");
 
 <div class="four columns">
 		<h1>REDES SOCIALES</h1>
-                <a href=""><i class="fa fa-facebook fa-2x  face" ></i></a>&nbsp;
-                <a href=""><i class="fa fa-twitter fa-2x  twi " ></i></a>&nbsp;
-                <a href=""><i class="fa fa-youtube fa-2x you"></i></a>
+                <a href="https://www.facebook.com/Osteochile"><i class="fa fa-facebook fa-2x  face" ></i></a>&nbsp;
+                <a href="https://twitter.com/osteochile"><i class="fa fa-twitter fa-2x  twi " ></i></a>&nbsp;
+                <a href="https://www.youtube.com/osteochile/"><i class="fa fa-youtube fa-2x you"></i></a>
                 <!-- -->
 
                 
