@@ -373,8 +373,9 @@ include ("./PHP/mostrarhome.php");
 
 <div class="four columns">
 		<h1>REDES SOCIALES</h1>
-                <i class="fa fa-youtube fa-2x">Facebook</i>
-		<div class="social facebook">
+                <i class="fa fa-youtube fa-2x" style="color: #fff;">Youtube</i>
+		<!--
+                <div class="social facebook">
 			<a href="#"></a>
 		</div>
 
@@ -385,6 +386,7 @@ include ("./PHP/mostrarhome.php");
 		<div class="social twitter">
 			<a href="#"></a>
 		</div>
+  -->
 		
 		
 	</div>
