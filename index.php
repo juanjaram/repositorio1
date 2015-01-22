@@ -21,6 +21,8 @@ include ("./PHP/mostrarhome.php");
 <meta name="viewport" content="width=device-width"/>
 <title>Home - Bienvenido a Osteochile</title>
 <!-- CSS Files-->
+<link rel="stylesheet" href="stylesheets/font-awesome-4.2.0/css/font-awesome.min.css">
+
 <link href='http://fonts.googleapis.com/css?family=Magra' rel='stylesheet' type='text/css'/>
 <link rel='stylesheet' type='text/css' href='stylesheets/estilo.css'/>
 <link rel='stylesheet' type='text/css' href='slider/css-slider.css'/>
@@ -220,7 +222,7 @@ include ("./PHP/mostrarhome.php");
 
 <!-- CONTENT 
 ================================================== -->
-<div class="row">
+<div class="row videoynoticias" >
 	
     <br/><div class="four columns" style="margin: 0 0 10px 0;">
 
@@ -228,7 +230,7 @@ include ("./PHP/mostrarhome.php");
         <div class="video" style="background: #7bbb12;">
     <div class="mas-not"><h4 class="h4video">Videos </h4></div>
               <script type="text/javascript" src="http://c520866.r66.cf2.rackcdn.com/1/js/easy_rotator.min.js"></script>
-                  <div class="dwuserEasyRotator" style="width: 100%; height: 220px; position:relative; text-align: left; float: left;" data-erconfig="{autoplayEnabled:false, autoplayDelay:6000, autoplayStopOnInteraction:false, lpp:'102-105-108-101-58-47-47-47-67-58-47-85-115-101-114-115-47-65-118-101-110-103-101-114-47-68-111-99-117-109-101-110-116-115-47-69-97-115-121-82-111-116-97-116-111-114-80-114-101-118-105-101-119-47-112-114-101-118-105-101-119-95-115-119-102-115-47'}" data-ername="videos">
+                  <div class="dwuserEasyRotator" style="width: 100%; height: 200px; position:relative; text-align: left; float: left;" data-erconfig="{autoplayEnabled:false, autoplayDelay:6000, autoplayStopOnInteraction:false, lpp:'102-105-108-101-58-47-47-47-67-58-47-85-115-101-114-115-47-65-118-101-110-103-101-114-47-68-111-99-117-109-101-110-116-115-47-69-97-115-121-82-111-116-97-116-111-114-80-114-101-118-105-101-119-47-112-114-101-118-105-101-119-95-115-119-102-115-47'}" data-ername="videos">
                     <div data-ertype="content" style="display: none; float: left;"><ul data-erlabel="Main Category">
                             <?php
                             while ($rvi=  mysql_fetch_array($sqlvideo)){
@@ -239,7 +241,7 @@ include ("./PHP/mostrarhome.php");
                                 $fechavideo=$rvi['fecha'];
 
                             ?>
-                            <li>
+                            <li style="float: left;">
                                 <a class="mainLink" style="float: left;" href="http://www.youtube.com/embed/<?php echo($urlvideo); ?>?hd=1&autoplay=1&rel=0" rel="shadowbox;width=720;height=480"><img class="main" src="youtube/img/videos/<?php echo($fotovideo); ?>" width="100%" style="float: left; width: 100%;"/></a> <img class="thumb" src="youtube/img/videos/<?php echo($fotovideo); ?>"  />
                             </li>
                             <?php } ?>
@@ -292,16 +294,16 @@ include ("./PHP/mostrarhome.php");
 		
 		<?php
                     while ($rnoticias=  mysql_fetch_array($sqlnoticias)){
-                        $idnoticia=$rnoticias['idnot'];
+                        $idnoticia=  $rnoticias['idnot'];
                         $titulonoticia=$rnoticias['titulo_not'];
                         $epigrafenoticia=$rnoticias['epigrafe_not'];
-                        $bajadanoticia=$rnoticias['bajada_not'];
+                        $bajadanoticia=  $rnoticias['bajada_not'];
                         $fotonoticia=$rnoticias['img_not'];
                     
                     ?>
-        <h5 class="h5-3"><?php echo($epigrafenoticia); ?></h5>
-        <h4 class="h4-3"><?php echo($titulonoticia); ?></h4>
-        <p class="p-3" style="height: 110px;"><?php echo($bajadanoticia); ?></p>
+        <h5 class="h5-3"><?php echo utf8_encode($epigrafenoticia); ?></h5>
+        <h4 class="h4-3"><?php echo utf8_encode($titulonoticia); ?></h4>
+        <p class="p-3" style="height: 95px;"><?php echo utf8_encode($bajadanoticia); ?></p>
 		<p>
 			<a href="#" class="leermas-1" >Leer Mas</a>
 		</p>
@@ -319,15 +321,15 @@ include ("./PHP/mostrarhome.php");
 
 <!-- que es la Osteopatia 
 ================================================== -->
-<div style="background: #065248; margin: 0 0 -32px 0;">
+<div class="queeslaosteopatia" style="background: #065248; margin: 0 0 -32px 0; ">
 <div class="row">
     <div class="twelve columns">
         <h4 class="h4-2">¿Que es la Osteopatia?</h4>
-        <p class="p-2">La osteopatía o medicina osteopática es una medicina alternativa desarrollada por Andrew Taylor Still, 
-                a partir de un sistema de diagnosis y tratamiento donde se pone una atención especial en la estructura y 
-                los problemas mecánicos del cuerpo. Se basa en la creencia que los huesos, los músculos, 
-                las articulaciones y el tejido conectivo no solo tienen la función evidente de formar parte de nuestro 
-                cuerpo, sino que desempeñan un papel central en el mantenimiento de la salud.</p>
+        <p class="p-2">La osteopatía es un sistema holístico, que toma en cuenta la totalidad de las estructuras del 
+            ser vivo y las interrelaciones que existen entre ellas. Es decir que todo sistema vivo es considerado como 
+            una unidad.
+           Una disminución de movilidad en algún sector del organismo llevará como consecuencia una alteración de la función 
+            fisiológica y a través de esta alteración, una disminución de las capacidades de auto regulación del ser vivo.</p>
             <a href="#" class="leermas">Conoce los Campos de Aplicación</a>
 	</div>
 </div></div>
@@ -371,6 +373,7 @@ include ("./PHP/mostrarhome.php");
 
 <div class="four columns">
 		<h1>REDES SOCIALES</h1>
+                <i class="fa fa-youtube fa-2x">Facebook</i>
 		<div class="social facebook">
 			<a href="#"></a>
 		</div>

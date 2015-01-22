@@ -5,10 +5,8 @@
         <group>
             <file>file:/var/www/html/repositorio1/index.php</file>
             <file>file:/var/www/html/repositorio1/PHP/mostrarhome.php</file>
-            <file>file:/var/www/html/repositorio1/videos/index.php</file>
             <file>file:/var/www/html/repositorio1/stylesheets/style.css</file>
             <file>file:/var/www/html/repositorio1/stylesheets/estilo.css</file>
-            <file>file:/var/www/html/repositorio1/stylesheets/skins/teal.css</file>
             <file>file:/var/www/html/repositorio1/PHP/Conecta.php</file>
         </group>
     </open-files>
