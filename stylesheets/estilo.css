@@ -47,8 +47,15 @@
     margin: 0;
     float: left;
 }
-
-
+@media (min-width: 1020px){
+    .videoynoticias{
+       height: 260px;
+    }
+    .queeslaosteopatia{
+        height: 264px;
+        padding: 0 101px 0 114px;
+    }
+}
 /*
 To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
