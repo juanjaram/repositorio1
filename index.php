@@ -224,14 +224,14 @@ include ("./PHP/mostrarhome.php");
 ================================================== -->
 <div class="row videoynoticias" >
 	
-    <br/><div class="four columns" style="margin: 0 0 10px 0;">
+    <br/><!--<div class="four columns" style="margin: 0 0 10px 0;"> -->
 
 
-        <div class="video" style="background: #7bbb12;">
-    <div class="mas-not"><h4 class="h4video">Videos </h4></div>
+        <div class="video">
+    
               <script type="text/javascript" src="http://c520866.r66.cf2.rackcdn.com/1/js/easy_rotator.min.js"></script>
-                  <div class="dwuserEasyRotator" style="width: 100%; height: 200px; position:relative; text-align: left; float: left;" data-erconfig="{autoplayEnabled:false, autoplayDelay:6000, autoplayStopOnInteraction:false, lpp:'102-105-108-101-58-47-47-47-67-58-47-85-115-101-114-115-47-65-118-101-110-103-101-114-47-68-111-99-117-109-101-110-116-115-47-69-97-115-121-82-111-116-97-116-111-114-80-114-101-118-105-101-119-47-112-114-101-118-105-101-119-95-115-119-102-115-47'}" data-ername="videos">
-                    <div data-ertype="content" style="display: none; float: left;"><ul data-erlabel="Main Category">
+                  <div class="dwuserEasyRotator rotator" data-erconfig="{autoplayEnabled:false, autoplayDelay:6000, autoplayStopOnInteraction:false, lpp:'102-105-108-101-58-47-47-47-67-58-47-85-115-101-114-115-47-65-118-101-110-103-101-114-47-68-111-99-117-109-101-110-116-115-47-69-97-115-121-82-111-116-97-116-111-114-80-114-101-118-105-101-119-47-112-114-101-118-105-101-119-95-115-119-102-115-47'}" data-ername="videos">
+                      <div data-ertype="content" class="controtator"><ul data-erlabel="Main Category">
                             <?php
                             while ($rvi=  mysql_fetch_array($sqlvideo)){
                                 $idvideo=$rvi['idvideo'];
@@ -241,10 +241,11 @@ include ("./PHP/mostrarhome.php");
                                 $fechavideo=$rvi['fecha'];
 
                             ?>
-                            <li style="float: left;">
-                                <a class="mainLink" style="float: left;" href="http://www.youtube.com/embed/<?php echo($urlvideo); ?>?hd=1&autoplay=1&rel=0" rel="shadowbox;width=720;height=480"><img class="main" src="youtube/img/videos/<?php echo($fotovideo); ?>" width="100%" style="float: left; width: 100%;"/></a> <img class="thumb" src="youtube/img/videos/<?php echo($fotovideo); ?>"  />
+                            <li>
+                                <a class="mainLink hrefvideo" href="http://www.youtube.com/embed/<?php echo($urlvideo); ?>?hd=1&autoplay=1&rel=0" rel="shadowbox;width=720;height=480"><img class="main imgvideo"  src="youtube/img/videos/<?php echo($fotovideo); ?>" /></a> <img src="youtube/img/videos/<?php echo($fotovideo); ?>"  />
                             </li>
                             <?php } ?>
+                            
 
                    <!-- <li>
                         <a class="mainLink" href="http://www.youtube.com/embed/8ULivxKG9A4?hd=1&autoplay=1&rel=0" rel="shadowbox;width=720;height=480"><img class="main" src="youtube/img/videos/video1.jpg" /></a> <img class="thumb" src="/jornada/img/videos/video1.jpg" />
@@ -254,6 +255,7 @@ include ("./PHP/mostrarhome.php");
   
 </ul>
 </div>
+     <h4 class="h4video">Revisa Nuestros Videos</h4>                 
                     <div data-ertype="layout" data-ertemplatename="NONE" style="">
                       <div class="erimgMain" style="position: position; left:0;right:0;top:0;bottom:0;" data-erconfig="{__numTiles:3, scaleMode:'showAvailable', imgType:'main', __loopNextButton:false, __arrowButtonMode:'rollover'}">
                         <div class="erimgMain_slides" style="position: absolute; left:0; top:0; bottom:0; right:0;">
@@ -274,7 +276,8 @@ include ("./PHP/mostrarhome.php");
                       </noscript>
                       <script type="text/javascript">/*Avoid IE gzip bug*/(function(b,c,d){try{if(!b[d]){b[d]="temp";var a=c.createElement("script");a.type="text/javascript";a.src="http://easyrotator.s3.amazonaws.com/1/js/nozip/easy_rotator.min.js";c.getElementsByTagName("head")[0].appendChild(a)}}catch(e){alert("EasyRotator fail; contact support.")}})(window,document,"er_$144");</script>
                     </div>
-                  </div>              </td>
+                  </div>             
+              
        
          
  <script src="engine/js/visuallightbox.js" type="text/javascript"></script>
@@ -283,14 +286,17 @@ include ("./PHP/mostrarhome.php");
                 <script type="text/javascript">
                 Shadowbox.init();
                 </script> 
-
-         </div><!--VIDEOS--> 
+ 
+         </div>
+   
+    <!--VIDEOS--> 
+         
 <!-- Start WOWSlider.com 
 <iframe src="youtube/video.php" style="width:325px;height:245px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
  <!-- End WOWSlider.com -->
             <br/>
-       </div>
-    <div class="four columns">
+       <!-- </div> -->
+    <div class="columns noticia">
 		
 		<?php
                     while ($rnoticias=  mysql_fetch_array($sqlnoticias)){
@@ -303,7 +309,7 @@ include ("./PHP/mostrarhome.php");
                     ?>
         <h5 class="h5-3"><?php echo utf8_encode($epigrafenoticia); ?></h5>
         <h4 class="h4-3"><?php echo utf8_encode($titulonoticia); ?></h4>
-        <p class="p-3" style="height: 95px;"><?php echo utf8_encode($bajadanoticia); ?></p>
+        <p class="p-3"><?php echo utf8_encode($bajadanoticia); ?></p>
 		<p>
 			<a href="#" class="leermas-1" >Leer Mas</a>
 		</p>
@@ -311,8 +317,8 @@ include ("./PHP/mostrarhome.php");
                     
 	</div>
 	
-	<div class="four columns">
-            <img src="images/Noticias/<?php echo($fotonoticia); ?>" width="100%"  style="box-shadow: 0 0 1px #000;"/>
+	<div class="imgnoticia columns">
+            <img src="images/Noticias/<?php echo($fotonoticia); ?>" width="352" height="192"   style="box-shadow: 0 0 1px #000;"/>
 		
 	</div>
     <?php } ?>

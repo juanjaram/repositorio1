@@ -15,7 +15,7 @@
 }
 .leermas-1{
     width: 100%;
-    margin: 0 0 20px 0;
+    margin: 0;
     
 }
 .leermas:hover, .leermas-1:hover{
@@ -42,10 +42,13 @@
     background: #7bbb12;
     color: #ffffff;
     text-align: center;
-    padding: 4px 0;
-    width: 100%;
-    margin: 0;
+    padding: 7px 0;
+    width: 320px;
+    height: 27px;
+    margin: 192px 0 0 0;
     float: left;
+    font-size: 12px;
+    
 }
 .face, .twi, .you{
     color: #7bbb12; 
@@ -73,7 +76,7 @@
 }
 >>>>>>> d9b8f534f8a7a523caad4729961f76d0d5f64dd9
 
-@media (min-width: 1020px){
+@media (min-width: 1024px){
     .videoynoticias{
        height: 260px;
     }
@@ -81,6 +84,56 @@
         height: 264px;
         padding: 0 101px 0 114px;
     }
+    .p-3{
+        height: 55px;
+    }
+    .rotator{
+        width: 320px;
+    }
+}
+@media (max-width: 1030px){
+    .rotator{
+        width: 100%;
+    }
+}
+
+/*         videos youtube              */
+.rotator{
+    width: 320px;
+    height: 192px; 
+    position:relative; 
+    margin-left: 15px;
+    float: left;
+}
+.controtator{
+    display: none; 
+    float: left;
+    width: 320px;
+}
+
+.hrefvideo{
+    float: left;
+    width: 100%;
+}
+
+.imgvideo{
+    float: left; 
+    width: 600px;
+}
+
+.noticia, .imgnoticia{
+    margin: 5px 0 0 0;
+    float: left;
+    width: 36.5%;
+    height: 195px;
+    //border: 1px solid #101010;
+}
+
+.noticia{
+    
+}
+.imgnoticia{
+   text-align: right; 
 }
 /*
 To change this license header, choose License Headers in Project Properties.
