@@ -373,7 +373,11 @@ include ("./PHP/mostrarhome.php");
 
 <div class="four columns">
 		<h1>REDES SOCIALES</h1>
+                <a href=""><i class="fa fa-facebook fa-2x redessociales" ></i></a>&nbsp;
+                <a href=""><i class="fa fa-twitter fa-2x redessociales" ></i></a>&nbsp;
+                <a href=""><i class="fa fa-youtube fa-2x redessociales"></i></a>
 
+<<<<<<< HEAD
 
                 
 
@@ -382,6 +386,8 @@ include ("./PHP/mostrarhome.php");
                  <i class="fa fa-twitter fa-2x" style="color: #7bbb12; background: #fff; border-radius: 50%; padding: 3%; height: 50px; width: 50px; text-align: center; "></i>&nbsp;
                   <i class="fa fa-youtube fa-2x" style="color: #7bbb12; background: #fff; border-radius: 50%; padding: 3%; height: 50px; width: 50px; text-align: center; "></i>
 
+=======
+>>>>>>> af02566e544d3598a28d59dbeb59f5b4ea73e0d0
                 
 		<!--
                 <div class="social facebook">
