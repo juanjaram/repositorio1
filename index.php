@@ -376,6 +376,7 @@ include ("./PHP/mostrarhome.php");
                 <a href=""><i class="fa fa-facebook fa-2x redessociales" ></i></a>&nbsp;
                 <a href=""><i class="fa fa-twitter fa-2x redessociales" ></i></a>&nbsp;
                 <a href=""><i class="fa fa-youtube fa-2x redessociales"></i></a>
+                <!-- -->
 
 <<<<<<< HEAD
 
