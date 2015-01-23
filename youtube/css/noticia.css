@@ -100,4 +100,9 @@ background: rgb(0, 87, 75);
 padding: 7px;
 }
 .ver-diplomado h4{ font-weight:bold;}
-.video{margin-top: 15px;}
+.video{margin-top: 15px;
+        width: 320px;
+        
+        float: left;
+        
+}
