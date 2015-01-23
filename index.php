@@ -1,4 +1,4 @@
-<?php 
+ <?php 
 include ("./PHP/Conecta.php"); 
 
 include ("./PHP/mostrarhome.php"); 
@@ -56,7 +56,8 @@ include ("./PHP/mostrarhome.php");
 <!-- HEADER
 ================================================== -->
 
-<div class="rom">	
+<div class="row">	
+	<div class="rom">
 		<div class="cuatro columns">
 
 			<div class="logo">
@@ -116,6 +117,7 @@ include ("./PHP/mostrarhome.php");
 				</ul>
 				</nav>
 		</div>	
+</div>
 </div>
 <div class="clear">
 </div>

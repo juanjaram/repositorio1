@@ -174,7 +174,7 @@ and open the template in the editor.
 .rom form .rom.collapse .column,
 .rom form .rom.collapse .columns { padding: 0 }
 
-.rom {  max-width: 100%; min-width: 768px; margin: 0 auto; position: relative; bottom: 0px; z-index: 1000; background: rgba(255, 255, 255,0.9);}
+.rom {  max-width: 100%; min-width: 1024px; margin: 0 auto; position: relative; bottom: 0px; z-index: 1000; background: rgba(255, 255, 255,0.9);}
 .rom .rom { width: auto; max-width: none; min-width: 0; margin: 0 -15px; }
 .rom.collapse .column,
 .rom.collapse .columns { padding: 0 }
