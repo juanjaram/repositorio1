@@ -68,7 +68,7 @@ include ("./PHP/mostrarhome.php");
 				<ul class="nav-bar sf-menu">
 				
 					<li class="current">
-					<a href="index.html">HOME</a>
+                                            <a href="index.html">HOME</a>
 					
 					</li>
 					
@@ -82,7 +82,7 @@ include ("./PHP/mostrarhome.php");
 					</li>
 					
 					<li>
-					<a href="#">CLINICA</a>
+					<a href="#">CLÍNICA</a>
 						<ul>
 						<li class="border-ul"><a href="blogpage1.html">Blog page style 1</a></li>
 						<li><a href="blogpage2.html">Blog page style 2</a></li>
@@ -102,7 +102,7 @@ include ("./PHP/mostrarhome.php");
 					
 
 					<li>
-					<a href="#">DEPORTES</a>
+					<a href="#">DEPORTE</a>
 						<ul>
 						<li class="border-ul"><a href="about.html">About us</a></li>
 						<li><a href="services.html">Services</a></li>						
@@ -130,8 +130,7 @@ include ("./PHP/mostrarhome.php");
                     <img src="images/imagen-rotator2.jpg" alt="image01" class="responsiveslide">
 		<div class="ei-title">
                         <h3>PRIMERA JORNADA / TALLER NACIONAL</h3>
-			<h2>de Osteopatía en Concepción</h2>
-			
+			<h2>de Osteopatía en Concepción</h2>		
                         <p>28 de marzo del 2015 - Hotel Radisson</p>
                         <a href=""> INSCRÍBETE AQUÍ</a>
 		</div>
@@ -313,7 +312,7 @@ include ("./PHP/mostrarhome.php");
                     
                     ?>
         <h5 class="h5-3"><?php echo utf8_encode($epigrafenoticia); ?></h5>
-        <h4 class="h4-3"><?php echo utf8_encode($titulonoticia); ?></h4>
+        <p class="h4-3"><?php echo utf8_encode($titulonoticia); ?></p>
         <p class="p-3"><?php echo utf8_encode($bajadanoticia); ?></p>
 		<p>
 			<a href="#" class="leermas-1" >Leer Mas</a>
