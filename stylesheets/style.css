@@ -155,7 +155,7 @@ form.custom .custom.disabled { background-color: #ddd }
 }
 .lt-ie9 form.custom div.custom.dropdown a.selector { height: 30px }
 /* The Grid ---------------------- */
-.row {  max-width: 100%; min-width: 768px; margin: 0 auto; }
+.row {  max-width: 100%; min-width: 768px; margin: 0 auto;}
 .row .row { width: auto; max-width: none; min-width: 0; margin: 0 -15px; }
 .row.collapse .column,
 .row.collapse .columns { padding: 0 }
@@ -170,12 +170,21 @@ form.custom .custom.disabled { background-color: #ddd }
 .one,.row .one { width: 8.33333% }
 .two,.row .two { width: 16.66667% }
 .three,.row .three { width: 25% }
-.four,.row .four { width: 33.33333% }
+.four,.row .four { width: 33.33333%; /*height: 60px;*/ }
+.cuatro,.row .cuatro { width: 33.33333%; height: 60px; }
 .five,.row .five { width: 41.66667% }
 .six,.row .six { width: 50% }
-.seven,.row .seven { width: 58.33333% }
-.eight,.row .eight { width: 66.66667% }
-.nine,.row .nine { width: 75% }
+.seven,.row .seven { width: 58.33333%;}
+.eight,.row .eight { width: 66.66667% ; /*height: 60px*/;
+/*
+border-style:solid;
+border-width: 1px;
+border-color: red;
+*/
+
+}
+
+.nine,.row .nine { width: 75%}
 .ten,.row .ten { width: 83.33333% }
 .eleven,.row .eleven { width: 91.66667% }
 .twelve,.row .twelve { width: 100% }
@@ -212,7 +221,7 @@ object,embed { height: 100% }
 img { -ms-interpolation-mode: bicubic }
 #map_canvas img,.map_canvas img { max-width: none!important }
 /* Nicolas Gallagher's micro clearfix */
-.row { *zoom: 1  }
+.row { *zoom: 1 }
 .row:before,.row:after { content: ""; display: table; }
 .row:after { clear: both }
 /* Block Grids ---------------------- */
@@ -390,14 +399,14 @@ div.button-bar ul.button-group { float: left; margin-right: 8px; }
 div.button-bar ul.button-group:last-child { margin-left: 0 }
 /* Requires globals.css */
 .nav-bar { height: 40px; margin-top: 30px; padding: 0; }
-.nav-bar > li { float: left; display: block; position: relative; padding: 0; margin: 0 7px 0 0; line-height: 40px; }
+.nav-bar > li { float: left; display: block; position: relative; padding: 0; margin: 0 7px 0 0; line-height: 60px; }
 .nav-bar > li:first-child { background: none }
 .nav-bar > li:last-child { }
 .nav-bar > li.active { }
 .nav-bar > li.active > a { cursor: pointer; }
 .nav-bar > li.active:hover { cursor: default; }
-.nav-bar > li:hover {background: #065248;  }
-.nav-bar > li > a {color: #444; }
+.nav-bar > li:hover {background: #065248; }
+.nav-bar > li > a {color: #444; margin-bottom: 2%; }
 .nav-bar > li ul { margin-bottom: 0  }
 .nav-bar > li .flyout { display: none }
 .nav-bar > li.has-flyout > a:first-child { position: relative }
@@ -424,7 +433,8 @@ div.button-bar ul.button-group:last-child { margin-left: 0 }
 .flyout.left { right: auto; left: -2px; }
 .flyout.up { top: auto; bottom: 39px; }
 ul.flyout,.nav-bar li ul { padding: 0; list-style: none; }
-ul.flyout li,.nav-bar li ul li {/*background: red;*/ position: relative; left: -30%;}
+ul.flyout li,.nav-bar li ul li {/*background: red;*/ position: relative; left: -45%; position: relative; top: 24px;}
+li.border-ul{border-top:2px solid #33877D}
 ul.flyout li a,.nav-bar li ul li a { margin: 0px 20px; background: #fff; border: 1px solid #e6e6e6; border-width: 0px 0px 1px 0; color: #333; display: block; font-size: 12px; height: auto; line-height: 1; padding: 12px 0px; -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset; text-align: center; }
 ul.flyout li a:hover,.nav-bar li ul li a:hover { background: #fff; color: white;}
 ul.flyout li.active,.nav-bar li ul li.active { margin-top: 0; border-top: 1px solid #4d4d4d; border-left: 1px solid #1a1a1a; }
@@ -700,7 +710,13 @@ ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul { left: 10em; /* ma
 .sf-menu a.sf-with-ul { min-width: 1px }
 .sf-sub-indicator { position: absolute; display: block; right: .75em; top: 1.05em; /* IE6 only */ width: 10px; height: 10px; text-indent: -999em; overflow: hidden; }
 a > .sf-sub-indicator { /* give all except IE6 the correct values */ top: 0.9em; background-position: 0 -100px; }
-#nav-wrap { margin-top: 30px;}
+#nav-wrap { margin-top: 0px;
+/*
+border-style:solid;
+border-width: 1px;
+border-color: black;
+*/
+}
 a:focus > .sf-sub-indicator,
 a:hover > .sf-sub-indicator,
 a:active > .sf-sub-indicator,
@@ -713,8 +729,8 @@ li.sfHover > a > .sf-sub-indicator { background-position: -10px -100px }
 .sf-menu ul a:active > .sf-sub-indicator,
 .sf-menu ul li:hover > a > .sf-sub-indicator,
 .sf-menu ul li.sfHover > a > .sf-sub-indicator { background-position: -10px 0 }
-.sf-shadow ul { padding: 0 8px 9px 0; border-top: 2px solid #33877D;  width: 200px;  }
-.sf-shadow ul.sf-shadow-off { background:transparent; }
+/*.sf-shadow ul { padding: 0 8px 9px 0; border-top: 2px solid #33877D;  width: 200px;  }
+.sf-shadow ul.sf-shadow-off { background:transparent; }*/
 
 /* PORTOFOLIO */
 #portofolio h5 {padding-top:10px;}

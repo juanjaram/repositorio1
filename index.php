@@ -56,9 +56,9 @@ include ("./PHP/mostrarhome.php");
 <!-- HEADER
 ================================================== -->
 <div class="row">	
-		<div class="four columns">
+		<div class="cuatro columns">
 			<div class="logo">
-                            <a href="index.html"><img width="235px" src="images/logo-transp-menu.png"></a>
+                            <a href="index.html"><img  src="images/logo-transp-menu.png"></a>
 			</div>
 		</div>
 		<div class="eight columns noleftmarg">		
@@ -73,7 +73,7 @@ include ("./PHP/mostrarhome.php");
 					<li>
 					<a href="#">ESCUELA</a>
 						<ul>
-						<li><a href="portofolio2.html">JORNADAS</a></li>
+						<li class="border-ul"><a href="portofolio2.html">JORNADAS</a></li>
 						<li><a href="portofolio3.html">DIPLOMADOS</a></li>
 						
 						</ul>
@@ -82,7 +82,7 @@ include ("./PHP/mostrarhome.php");
 					<li>
 					<a href="#">CLINICA</a>
 						<ul>
-						<li><a href="blogpage1.html">Blog page style 1</a></li>
+						<li class="border-ul"><a href="blogpage1.html">Blog page style 1</a></li>
 						<li><a href="blogpage2.html">Blog page style 2</a></li>
 						<li><a href="blogpage3.html">Blog page style 3</a></li>
 						<li><a href="blogsinglepost.html">Single post</a></li>
@@ -92,7 +92,7 @@ include ("./PHP/mostrarhome.php");
 					<li>
 					<a href="#">EMPRESAS</a>
 						<ul>
-						<li><a href="about.html">About us</a></li>
+						<li class="border-ul"><a href="about.html">About us</a></li>
 						<li><a href="services.html">Services</a></li>						
 						</ul>
 					</li>
@@ -102,7 +102,7 @@ include ("./PHP/mostrarhome.php");
 					<li>
 					<a href="#">DEPORTES</a>
 						<ul>
-						<li><a href="about.html">About us</a></li>
+						<li class="border-ul"><a href="about.html">About us</a></li>
 						<li><a href="services.html">Services</a></li>						
 						</ul>
 					</li>
