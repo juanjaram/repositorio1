@@ -56,7 +56,7 @@ include ("./PHP/mostrarhome.php");
 <!-- HEADER
 ================================================== -->
 
-<div class="row">	
+<div class="rom">	
 		<div class="cuatro columns">
 
 			<div class="logo">
@@ -351,10 +351,10 @@ include ("./PHP/mostrarhome.php");
 
 	<div  class="four columns">
 		<h1><img src="images/logo-transp-footer.png"></h1>
-		 <h1 style="color:white;">CONTACTANOS!</br>Osteochile</br>
+		 <a style="color:white; font-size:16px;">CONTACTANOS!</a></br><a style="color:white; font-size:12px;">OSTEOCHILE</br>
 		 Camino a Santa Juana, Kilometro 0,8. Concepciòn</br>
 		 +56 9 795 746 90</br>
-		 contacto@osteochile.cl</h1>
+		 contacto@osteochile.cl</a>
 		 
 	</div>
 

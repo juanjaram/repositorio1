@@ -163,7 +163,8 @@
 	width: 100%;
 	max-width: 1920px;
 	height: 400px;
-	margin: 0 auto;	
+	/*margin: 0 auto;	*/
+    margin-top: -60px;
 }
 .ei-slider-loading{
 	width: 100%;
