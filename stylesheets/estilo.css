@@ -6,17 +6,21 @@
     
     float: left;
     text-align: center;
-    font-size: 12px;
+    font-size: 22px;
     height: 27px;
+    font-weight: bold;
 }
 .leermas{
-    margin: 0 0 20px 22%;
-    width: 40%;
+    margin: 0 0 20px 25%;
+    width: 400px;
 }
 .leermas-1{
+    
+    
     width: 100%;
-    margin: 0;
-    margin-top: -12px;
+    padding: 0 0 7px 0;
+    margin-top: 10px;
+    
     
     
 }
@@ -26,41 +30,51 @@
 .h5-3, .h4-3{
     color: #065248;
     float: left;
-    margin: 5px 0;
+    margin:0 0 4px 0;
 }
 .h5-3{
-    font-size: 12px;
+    font-size: 22px;
+    font-weight: normal;
+    
+    
 }
 .h4-3{
-    font-size: 22px;
+    font-size: 40px;
+    font-weight:normal;
 }
 .p-3{
     float: left;
     text-align: justify;
-    font-size: 12px;
+    font-size: 21px;
+    margin: 0;
+    line-height: normal;
 }
 .h4-2, .p-2{
     text-align: Center;
     color: #FFFFFF;
 }
 .h4-2{
-    font-size: 22px;
+    font-size: 40px;
+    font-weight: normal;
+    line-height: normal;
+    margin: 0;
 }
 .p-2{
-    font-size: 12px;
-    max-width: 810px;
+    font-size: 21px;
+    max-width: 900px;
     text-align: center;
+    line-height: normal;
 }
 .h4video{
     background: #7bbb12;
     color: #ffffff;
     text-align: center;
-    padding: 7px 0;
+    padding: 0 0;
     width: 320px;
     height: 27px;
     margin: 192px 0 0 0;
     float: left;
-    font-size: 12px;
+    font-size: 22px;
     
 }
 .face, .twi, .you{
@@ -95,7 +109,7 @@
     .queeslaosteopatia{
         text-align: center;
         height: 264px;
-        padding: 38px 101px 0 254px;
+        padding: 7px 101px 0 234px;
         
     }
     .p-3{
@@ -117,6 +131,7 @@
     }
     .noticia{
     width: 100%;
+    
 }
     
 }
@@ -149,7 +164,7 @@
 .noticia, .imgnoticia{
     margin: 5px 0 0 0;
     float: left;
-    width: 33.5%;
+    width: 33.3%;
     height: 195px;
     //border: 1px solid #101010;
 }

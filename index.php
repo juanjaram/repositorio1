@@ -307,15 +307,15 @@ include ("./PHP/mostrarhome.php");
 		<?php
                     while ($rnoticias=  mysql_fetch_array($sqlnoticias)){
                         $idnoticia=  $rnoticias['idnot'];
-                        $titulonoticia=$rnoticias['titulo_not'];
+                        $titulonoticia= $rnoticias['titulo_not'];
                         $epigrafenoticia=$rnoticias['epigrafe_not'];
                         $bajadanoticia=  $rnoticias['bajada_not'];
                         $fotonoticia=$rnoticias['img_not'];
                     
                     ?>
-        <h5 class="h5-3"><?php echo utf8_encode($epigrafenoticia); ?></h5>
-        <p class="h4-3"><?php echo utf8_encode($titulonoticia); ?></p>
-        <p class="p-3"><?php echo utf8_encode($bajadanoticia); ?></p>
+        <h5 class="h5-3"><?php echo utf8_encode(substr($epigrafenoticia, 0, 30)); ?></h5>
+        <h4 class="h4-3"><?php echo utf8_encode(substr($titulonoticia, 0, 18)); ?></h4>
+        <p class="p-3"><?php echo utf8_encode(substr($bajadanoticia, 0, 80)); ?>...</p>
 		<p>
 			<a href="#" class="leermas-1" >Leer Mas</a>
 		</p>
@@ -336,13 +336,13 @@ include ("./PHP/mostrarhome.php");
 <div class="queeslaosteopatia" style="background: #065248; margin: 0 0 -32px 0; ">
 <div class="row">
     <div class="twelve columns">
-        <h4 class="h4-2" style="margin-left: -150px;">¿Que es la Osteopatia?</h4>
+        <h4 class="h4-2" style="margin-left: -150px;">¿Qué es la Osteopatía?</h4>
         <p class="p-2">La osteopatía es un sistema holístico, que toma en cuenta la totalidad de las estructuras del 
             ser vivo y las interrelaciones que existen entre ellas. Es decir que todo sistema vivo es considerado como 
             una unidad.</p>
            <p class="p-2">Una disminución de movilidad en algún sector del organismo llevará como consecuencia una alteración de la función 
             fisiológica y a través de esta alteración, una disminución de las capacidades de auto regulación del ser vivo.</p>
-            <a href="#" class="leermas">Conoce los Campos de Aplicación</a>
+            <a href="#" class="leermas">Conoce los campos de aplicación</a>
 	</div>
 </div></div>
 <!-- FOOOTER 
