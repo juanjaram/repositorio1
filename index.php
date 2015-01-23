@@ -23,7 +23,7 @@ include ("./PHP/mostrarhome.php");
 <!-- CSS Files-->
 <link rel="stylesheet" href="stylesheets/font-awesome-4.2.0/css/font-awesome.min.css">
 
-<link href='http://fonts.googleapis.com/css?family=Magra' rel='stylesheet' type='text/css'/>
+<link href='http://fonts.googleapis.com/css?family=Magra:400,700' rel='stylesheet' type='text/css'>
 <link rel='stylesheet' type='text/css' href='stylesheets/estilo.css'/>
 <link rel='stylesheet' type='text/css' href='slider/css-slider.css'/>
 <link rel="stylesheet" href="stylesheets/style.css">
