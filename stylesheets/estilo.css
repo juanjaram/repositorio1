@@ -60,8 +60,7 @@
     text-align: center; 
 }
 
-<<<<<<< HEAD
-=======
+
 .face:hover{
     color: #ffffff;
     background: #245269
@@ -74,7 +73,6 @@
     color: #ffffff;
     background: #269abc;
 }
->>>>>>> d9b8f534f8a7a523caad4729961f76d0d5f64dd9
 
 @media (min-width: 1024px){
     .videoynoticias{
