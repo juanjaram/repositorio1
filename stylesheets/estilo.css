@@ -6,16 +6,18 @@
     
     float: left;
     text-align: center;
-    font-size: 16px;
-    
+    font-size: 12px;
+    height: 27px;
 }
 .leermas{
-    margin: 0 0 20px 30%;
+    margin: 0 0 20px 22%;
     width: 40%;
 }
 .leermas-1{
     width: 100%;
     margin: 0;
+    margin-top: -12px;
+    
     
 }
 .leermas:hover, .leermas-1:hover{
@@ -26,17 +28,28 @@
     float: left;
     margin: 5px 0;
 }
+.h5-3{
+    font-size: 12px;
+}
+.h4-3{
+    font-size: 22px;
+}
 .p-3{
     float: left;
     text-align: justify;
+    font-size: 12px;
 }
 .h4-2, .p-2{
     text-align: Center;
     color: #FFFFFF;
 }
-
+.h4-2{
+    font-size: 22px;
+}
 .p-2{
-    font-size: 16px;
+    font-size: 12px;
+    max-width: 810px;
+    text-align: center;
 }
 .h4video{
     background: #7bbb12;
@@ -77,22 +90,35 @@
 @media (min-width: 1024px){
     .videoynoticias{
        height: 260px;
+       width: 1024px;
     }
     .queeslaosteopatia{
+        text-align: center;
         height: 264px;
-        padding: 0 101px 0 114px;
+        padding: 38px 101px 0 254px;
+        
     }
     .p-3{
-        height: 55px;
+        
     }
     .rotator{
         width: 320px;
     }
 }
+
 @media (max-width: 1030px){
     .rotator{
         width: 100%;
     }
+}
+@media (max-width: 640px){
+    .video{
+        width: 100%;
+    }
+    .noticia{
+    width: 100%;
+}
+    
 }
 
 /*         videos youtube              */
@@ -122,14 +148,12 @@
 .noticia, .imgnoticia{
     margin: 5px 0 0 0;
     float: left;
-    width: 36.5%;
+    width: 33.5%;
     height: 195px;
     //border: 1px solid #101010;
 }
 
-.noticia{
-    
-}
+
 .imgnoticia{
    text-align: right; 
 }
