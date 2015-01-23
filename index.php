@@ -129,8 +129,9 @@ include ("./PHP/mostrarhome.php");
 		<li>
                     <img src="images/imagen-rotator2.jpg" alt="image01" class="responsiveslide">
 		<div class="ei-title">
-			<h2>PRIMERA JORNADA / TALLER NACIONAL</h2>
-			<h3>de Osteopatía en Concepción</h3>
+                        <h3>PRIMERA JORNADA / TALLER NACIONAL</h3>
+			<h2>de Osteopatía en Concepción</h2>
+			
                         <p>28 de marzo del 2015 - Hotel Radisson</p>
                         <a href=""> INSCRÍBETE AQUÍ</a>
 		</div>
@@ -149,6 +150,7 @@ include ("./PHP/mostrarhome.php");
 			<h3>Smile</h3>
 		</div>
 		</li>
+                <!--
 		<li>
 		<img src="http://placehold.it/1400x500/222" alt="image04" class="responsiveslide">
 		<div class="ei-title">
@@ -197,7 +199,7 @@ include ("./PHP/mostrarhome.php");
 			<h2>Stand up & </h2>
 			<h3>Live</h3>
 		</div>
-		</li>
+		</li> -->
 	</ul>
 	<!-- slider-thumbs -->
 	<ul class="ei-slider-thumbs">
@@ -205,13 +207,14 @@ include ("./PHP/mostrarhome.php");
                 <li><a href="#">Slide 1</a><img src="images/imagen-rotator2.jpg" class="slideshowthumb" alt="thumb01" width="150"/></li>
 		<li><a href="#">Slide 2</a><img src="http://placehold.it/150x59/444" class="slideshowthumb" alt="thumb02"/></li>
 		<li><a href="#">Slide 3</a><img src="http://placehold.it/150x59/444" class="slideshowthumb" alt="thumb03"/></li>
-		<li><a href="#">Slide 4</a><img src="http://placehold.it/150x59/444" class="slideshowthumb" alt="thumb04"/></li>
+		<!-- <li><a href="#">Slide 4</a><img src="http://placehold.it/150x59/444" class="slideshowthumb" alt="thumb04"/></li>
 		<li><a href="#">Slide 5</a><img src="http://placehold.it/150x59/444" class="slideshowthumb" alt="thumb05"/></li>
 		<li><a href="#">Slide 6</a><img src="http://placehold.it/150x59/444" class="slideshowthumb" alt="thumb06"/></li>
 		<li><a href="#">Slide 7</a><img src="http://placehold.it/150x59/444" class="slideshowthumb" alt="thumb07"/></li>
 		<li><a href="#">Slide 8</a><img src="http://placehold.it/150x59/444" class="slideshowthumb" alt="thumb08"/></li>		
 		<li><a href="#">Slide 9</a><img src="http://placehold.it/150x59/444" class="slideshowthumb" alt="thumb09"/></li>
 		<li><a href="#">Slide 10</a><img src="http://placehold.it/150x59/444" class="slideshowthumb" alt="thumb10"/></li>
+                -->
 	</ul>	
 </div>
 <div class="minipause">

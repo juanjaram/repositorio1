@@ -196,23 +196,39 @@
 .ei-title{
 	position: absolute;	
 	top: 30%;
+        background-color: rgba( 0, 0, 0, 0.5);
+        height: 222px;
+        margin-top: 70px;
 }
 .ei-title h2, .ei-title h3{
-	text-align: center;
+	text-align: left;
+        margin: 0;
 }
 .ei-title h2{
-	font-size: 40px;
-	line-height: 50px;	
+	font-size: 26px;
+	line-height: 40px;	
 	color: #fff;
-	padding: 0 10px;
+	padding: 0 40px;
+        
 }
 .ei-title h3{
-font-size: 50px;
-line-height: 70px;
+font-size: 26px;
+line-height: 40px;
 text-transform: uppercase;
 color: #fff;
-background: #333;
-padding: 0px 40px;
+background: #7bbb12;
+padding: 0 40px;
+}
+.ei-title p, .ei-title a{ 
+    color: #ffffff;
+    font-size: 24px;
+    margin: 15px 40px;
+}
+
+.ei-title a{
+    background: #7bbb12;
+    padding: 4px 10px;
+    
 }
 .ei-slider-thumbs{
 	height: 13px;
@@ -296,6 +312,7 @@ padding: 0px 40px;
 	.ei-title h2{
 		font-size: 20px;
 		line-height: 24px;
+                
 	}
 	.ei-title h3{
 		font-size: 30px;
