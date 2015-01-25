@@ -134,7 +134,7 @@ include ("./PHP/mostrarhome.php");
 		<div class="ei-title">
                         <h3>PRIMERA JORNADA / TALLER NACIONAL</h3>
 			<h2>de Osteopatía en Concepción</h2>		
-                        <p>28 de marzo del 2015 - Hotel Radisson</p>
+                        <p>28 de marzo del 2015 · Hotel Radisson</p>
                         <a href=""> INSCRÍBETE AQUÍ</a>
 		</div>
 		</li>
@@ -264,7 +264,7 @@ include ("./PHP/mostrarhome.php");
   
 </ul>
 </div>
-     <h4 class="h4video">Revisa Nuestros Videos</h4>                 
+     <h4 class="h4video">Revisa nuestros videos</h4>                 
                     <div data-ertype="layout" data-ertemplatename="NONE" style="">
                       <div class="erimgMain" style="position: position; left:0;right:0;top:0;bottom:0;" data-erconfig="{__numTiles:3, scaleMode:'showAvailable', imgType:'main', __loopNextButton:false, __arrowButtonMode:'rollover'}">
                         <div class="erimgMain_slides" style="position: absolute; left:0; top:0; bottom:0; right:0;">
@@ -317,7 +317,7 @@ include ("./PHP/mostrarhome.php");
         <h4 class="h4-3"><?php echo utf8_encode(substr($titulonoticia, 0, 18)); ?></h4>
         <p class="p-3"><?php echo utf8_encode(substr($bajadanoticia, 0, 80)); ?>...</p>
 		<p>
-			<a href="#" class="leermas-1" >Leer Mas</a>
+			<a href="#" class="leermas-1" >Leer más</a>
 		</p>
 			
                     
@@ -347,9 +347,9 @@ include ("./PHP/mostrarhome.php");
 <!-- que es la Osteopatia 
 ================================================== -->
 <div class="queeslaosteopatia" style="background: #065248; margin: 0 0 -32px 0; ">
-<div class="row">
-    <div class="twelve columns">
-        <h4 class="h4-2" style="margin-left: -150px;">¿Qué es la Osteopatía?</h4>
+    <div class="row" style="margin: 0 auto;">
+    <div style="text-align: center;">
+        <h4 class="h4-2" >¿Qué es la Osteopatía?</h4>
         <p class="p-2">La osteopatía es un sistema holístico, que toma en cuenta la totalidad de las estructuras del 
             ser vivo y las interrelaciones que existen entre ellas. Es decir que todo sistema vivo es considerado como 
             una unidad.</p>
@@ -368,15 +368,16 @@ include ("./PHP/mostrarhome.php");
 
 	<div  class="four columns">
 		<h1><img src="images/logo-transp-footer.png"></h1>
-		 <a style="color:white; font-size:16px;">CONTACTANOS</a></br><a style="color:white; font-size:12px; font-weight:bold; ">OSTEOCHILE</br>
-		 Camino a Santa Juana, Kilometro 0,8. Concepciòn</br>
-		 +56 9 795 746 90</br>
-		 contacto@osteochile.cl</a>
+		 <a style="color:white; font-size:26px; font-weight: bold;">CONTÁCTANOS</a><br/>
+                 <a style="color:white; font-size:19px; text-align: left;">OSTEOCHILE<br/>
+		 Camino a Santa Juana, kilómetro 0,8. Concepción <br/>
+                 +56 9 795 746 90<br/>
+                 contacto@osteochile.cl</a>
 		 
 	</div>
 
 <div class="four columns">
-		<h1 class="newsmargin">NEWSLETTER</h1>
+    <h1 class="newsmargin" style="font-size: 26px; color: #FFF; margin: 0 0 8px 0;">NEWSLETTER</h1>
 		<div class="row collapse newsletter floatright">
 			<div class="ten mobile-three columns">
 				<input type="text" class="nomargin" placeholder="Ingresa tu e-mail">
@@ -385,22 +386,21 @@ include ("./PHP/mostrarhome.php");
 				<a href="#" class="postfix button expand">Enviar</a>
 			</div>
 			
-<img  style="margin-top:15%" src="images/logo-atsa.png">
+
 
 		</div>
-
-		<div style="color:white; margin-top:20%; position:relative; left:-23%; font-weight:bold; ">Con el respaldo Academico de la Escuela de Osteopatìa </br> A.T.S.A (Francia), 40 años enseñando la Osteopatìa</div>
-
+                
 
 
 
 	</div>
 
 <div class="four columns">
-		<h1>REDES SOCIALES</h1>
+    <h1 class="h1redessociales" style="font-weight: bold; font-size: 26px; color: #FFF;">REDES SOCIALES</h1>
                 <a href="https://www.facebook.com/Osteochile"><i class="fa fa-facebook fa-2x  face" ></i></a>&nbsp;
-                <a href="https://twitter.com/osteochile"><i class="fa fa-twitter fa-2x  twi " ></i></a>&nbsp;
-                <a href="https://www.youtube.com/osteochile/"><i class="fa fa-youtube fa-2x you"></i></a>
+                <a href="https://www.youtube.com/osteochile/"><i class="fa fa-youtube fa-2x you"></i></a>&nbsp;
+                <a href="https://twitter.com/osteochile"><i class="fa fa-twitter fa-2x  twi " ></i></a>
+                
                 <!-- -->
 
                 
@@ -422,7 +422,13 @@ include ("./PHP/mostrarhome.php");
 		
 	</div>
 	
+        <div class="columns atsa">
+            <img style="float: left;"  src="images/logo-atsa.png"/>
+	<div style="color:white; font-size: 19px; float: left; width: 70%; margin: 30px 0 0 13px; text-align: left;">
+            Con el respaldo académico de la Escuela de Osteopatía A.T.S.A. (Francia), 40 años enseñando la Osteopatía.
+        </div>
 
+        </div>
 
 
 

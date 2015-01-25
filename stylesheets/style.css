@@ -779,7 +779,7 @@ a.projectdetail { background: #33877D; color: #fff; padding: 7px 7px 6px 7px; fo
 .detailslider {border:10px solid #fff;margin-top:13px;}
 
 /* CONTENT ---------------------- */
-.nomargin { margin-bottom: 0px !important}
+.nomargin { margin-bottom: 0px !important; }
 .noleftmargin { margin-left: 0px; padding-left: 0px; }
 .floatright,.right { float: left }
 .left { float: left }
@@ -826,7 +826,7 @@ border-color: green;*/ z-index: 1000;  }
 #footer { background: #7bbb12; color: #666; padding: 30px 0; margin-top: 36px; }
 #footer a { color: #666; font-size: 12px; }
 #footer h1 { font-size: 16px; color: #ccc; margin-bottom: 20px; }
-.newsmargin { margin-left: 46px }
+.newsmargin { margin-left: 0;  }
 #footer .button { box-shadow: none; width: 74px; nowhitespace: afterproperty; background: #065248; color: white; cursor: pointer; display: inline-block; font-family: 'Magra', sans-serif; font-size: 23px; font-weight: bold; line-height: 1; margin: 0; outline: none; padding: 5px 8px 5px 8px; position: relative; text-align: center; text-decoration: none; -webkit-transition: background-color 0.15s ease-in-out; -moz-transition: background-color 0.15s ease-in-out; -o-transition: background-color 0.15s ease-in-out; transition: background-color 0.15s ease-in-out; }
 #footer input[type="text"] { background: white; font-family: 'Magra', sans-serif; font-family:'Magra', sans-serif; //"Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; 
                              border: 0px solid #333; -webkit-border-radius: 2px; -moz-border-radius: 2px; -ms-border-radius: 2px; -o-border-radius: 2px; border-radius: 2px; color: #999; display: block; font-size: 12px; margin: 0 0 12px 0; padding: 6px; height: 32px; width: 100%; -webkit-transition: all 0.15s linear; -moz-transition: all 0.15s linear; -o-transition: all 0.15s linear; transition: all 0.15s linear; box-shadow: none; }
