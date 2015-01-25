@@ -69,21 +69,21 @@ include ("./PHP/mostrarhome.php");
 				<ul class="nav-bar sf-menu">
 				
 					<li class="current">
-                                            <a href="index.html">HOME</a>
+                                            <a href="index.html" style="color:white;">HOME</a>
 					
 					</li>
 					
 					<li>
 					<a href="#">ESCUELA</a>
 						<ul>
-						<li class="border-ul"><a href="portofolio2.html">JORNADAS</a></li>
-						<li><a href="portofolio3.html">DIPLOMADOS</a></li>
+						<li class="border-ul"><a href="portofolio2.html">Jornadas</a></li>
+						<li><a href="portofolio3.html">Diplomados</a></li>
 						
 						</ul>
 					</li>
 					
 					<li>
-					<a href="#">CLÍNICA</a>
+					<a href="#">CLINICA</a>
 						<ul>
 						<li class="border-ul"><a href="blogpage1.html">Blog page style 1</a></li>
 						<li><a href="blogpage2.html">Blog page style 2</a></li>
@@ -112,6 +112,7 @@ include ("./PHP/mostrarhome.php");
 					
 					<li>
 					<a href="contact.html">CONTACTO</a>
+
 					</li>
 					
 				</ul>
@@ -228,12 +229,14 @@ include ("./PHP/mostrarhome.php");
 
 <!-- CONTENT 
 ================================================== -->
-<div class="row videoynoticias" >
-	
-    <br/><!--<div class="four columns" style="margin: 0 0 10px 0;"> -->
+<div class="row">
+	<div class="twelve columns">
+		
 
-
-        <div class="video">
+	</div>
+	<div class="four columns">
+		
+  <div class="video">
     
               <script type="text/javascript" src="http://c520866.r66.cf2.rackcdn.com/1/js/easy_rotator.min.js"></script>
                   <div class="dwuserEasyRotator rotator" data-erconfig="{autoplayEnabled:false, autoplayDelay:6000, autoplayStopOnInteraction:false, lpp:'102-105-108-101-58-47-47-47-67-58-47-85-115-101-114-115-47-65-118-101-110-103-101-114-47-68-111-99-117-109-101-110-116-115-47-69-97-115-121-82-111-116-97-116-111-114-80-114-101-118-105-101-119-47-112-114-101-118-105-101-119-95-115-119-102-115-47'}" data-ername="videos">
@@ -294,15 +297,12 @@ include ("./PHP/mostrarhome.php");
                 </script> 
  
          </div>
-   
-    <!--VIDEOS--> 
-         
-<!-- Start WOWSlider.com 
-<iframe src="youtube/video.php" style="width:325px;height:245px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
- <!-- End WOWSlider.com -->
-            <br/>
-       <!-- </div> -->
-    <div class="columns noticia">
+
+	</div>
+	<div class="four columns">
+		
+
+  <div class=" noticia">
 		
 		<?php
                     while ($rnoticias=  mysql_fetch_array($sqlnoticias)){
@@ -322,12 +322,25 @@ include ("./PHP/mostrarhome.php");
 			
                     
 	</div>
+
+	</div>
+
+
+
+
+	<div class="four columns">
 	
-	<div class="imgnoticia columns">
+<div class="imgnoticia ">
             <img src="images/Noticias/<?php echo($fotonoticia); ?>" width="352" height="192"   style="box-shadow: 0 0 1px #000;"/>
 		
 	</div>
     <?php } ?>
+
+
+</div>
+	</div>
+</div>
+<div class="hr">
 </div>
 
 
@@ -355,7 +368,7 @@ include ("./PHP/mostrarhome.php");
 
 	<div  class="four columns">
 		<h1><img src="images/logo-transp-footer.png"></h1>
-		 <a style="color:white; font-size:16px;">CONTACTANOS!</a></br><a style="color:white; font-size:12px;">OSTEOCHILE</br>
+		 <a style="color:white; font-size:16px;">CONTACTANOS</a></br><a style="color:white; font-size:12px; font-weight:bold; ">OSTEOCHILE</br>
 		 Camino a Santa Juana, Kilometro 0,8. Concepciòn</br>
 		 +56 9 795 746 90</br>
 		 contacto@osteochile.cl</a>
@@ -376,7 +389,7 @@ include ("./PHP/mostrarhome.php");
 
 		</div>
 
-		<div style="color:white; margin-top:20%; position:relative; left:-23%;">Con el respaldo Academico de la Escuela de Osteopatìa </br> A.T.S.A (Francia), 40 años enseñando la Osteopatìa</div>
+		<div style="color:white; margin-top:20%; position:relative; left:-23%; font-weight:bold; ">Con el respaldo Academico de la Escuela de Osteopatìa </br> A.T.S.A (Francia), 40 años enseñando la Osteopatìa</div>
 
 
 
@@ -418,7 +431,7 @@ include ("./PHP/mostrarhome.php");
 <div class="copyright">
 	<div class="row">
 		<div class="six columns">
-			 &copy;<span class="small"> </span>
+			 <span class="small"> </span>
 		</div>
 		<div class="six columns">
 			<span class="small floatright"> </span>
