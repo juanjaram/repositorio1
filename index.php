@@ -149,17 +149,10 @@ $(function(){
                     <img src="images/imagen-rotator2.jpg" alt="image01" class="responsiveslide">
 		<div class="ei-title">
                         <h3>PRIMERA JORNADA / TALLER NACIONAL</h3>
-<<<<<<< HEAD
-			<h2>de Osteopatía en Concepción</h2>		
-                        <p >28 de marzo del 2015 · Hotel Radisson</p>
-                        <a href=""> INSCRÍBETE AQUÍ</a>
-=======
                         <h2 class="h2-r">de Osteopatía en Concepción</h2>
                         <h2 class="p-r">28 de marzo del 2015 · Hotel Radisson</h2>
                         <h2 ><a href=""> INSCRÍBETE AQUÍ</a></h2>
-                        		
-                        
->>>>>>> a5642daf663aea25149a9fe02a7ca62c321ad9af
+                        		                    
 		</div>
 		</li>
 		<li>
