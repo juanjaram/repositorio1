@@ -313,6 +313,7 @@ padding: 0 40px;
 		bottom: 0;
 		background: rgba(255,255,255,0.9);
 		padding: 0;
+        opacity: 1;
 	}
 	.ei-title h2, .ei-title h3{
 		text-align: center;

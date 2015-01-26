@@ -408,14 +408,14 @@ border-color: blue;*/ }
 .nav-bar > li { float: left; display: block; position: relative; padding: 0; margin: 0 7px 0 0; line-height: 60px; color:white !important/*  border-style:solid;
 border-width: 1px;
 border-color: yellow;*/ }
-.nav-bar > li:first-child { background: #065248;  }
-.nav-bar > li:last-child { }
+.nav-bar > li:first-child { background: #065248;  color: white;}
+.nav-bar > li:last-child { color: white;}
 .nav-bar > li.active {color:white;}
 .nav-bar > li.active > a { cursor: pointer; }
 .nav-bar > li.active:hover { cursor: default; }
-.nav-bar > li:hover {background: #065248; color:white;}
+.nav-bar > li:hover {background: #065248; color:white !important;}
 .nav-bar > li > a {color: #727272; margin-bottom: 2%; position: relative; top: 10px;  }
-.nav-bar > li > a:hover {color: white; margin-bottom: 2%; position: relative; top: 10px;  }
+.nav-bar > li > a:hover {color: white !important; margin-bottom: 2%; position: relative; top: 10px;  }
 .nav-bar > li ul { margin-bottom: 0 ;  }
 .nav-bar > li .flyout { display: none }
 .nav-bar > li.has-flyout > a:first-child { position: relative }

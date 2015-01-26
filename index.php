@@ -12,6 +12,33 @@ include ("./PHP/mostrarhome.php");
 <!--[if gt IE 8]><!-->
 <html class="no-js" lang="en">
 <!--<![endif]-->
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+
+<!--INSISTO EL PHP GENERA MENOS TRABAJO DE CODIGO (en este caso) !  PERO BUENO-->
+<script>   
+$(function(){
+ $("#btn_enviar").click(function(){
+ var url = "suscribirse.php"; // El script a dónde se realizará la petición.
+    $.ajax({
+           type: "POST",
+           url: url,
+           data: $("#formulario").serialize(), // Adjuntar los campos del formulario enviado.
+           success: function(data)
+           {
+               $("#respuesta").html(data); // Mostrar la respuestas del script PHP.
+           }
+         });
+
+    return false; // Evitar ejecutar el submit del formulario.
+ });
+});
+</script>
+
+
+
+
+
 <head>
 
 
@@ -74,7 +101,7 @@ include ("./PHP/mostrarhome.php");
 					</li>
 					
 					<li>
-					<a href="#">ESCUELA</a>
+					<a style:hover="color:white;" href="#">ESCUELA</a>
 						<ul>
 						<li class="border-ul"><a href="portofolio2.html">Jornadas</a></li>
 						<li><a href="portofolio3.html">Diplomados</a></li>
@@ -100,7 +127,7 @@ include ("./PHP/mostrarhome.php");
 					</li>
 					
 					<li>
-					<a href="contact.html">CONTACTO</a>
+					<a  style="color:#727272;"  href="contact.html">CONTACTO</a>
 
 					</li>
 					
@@ -123,7 +150,7 @@ include ("./PHP/mostrarhome.php");
 		<div class="ei-title">
                         <h3>PRIMERA JORNADA / TALLER NACIONAL</h3>
 			<h2>de Osteopatía en Concepción</h2>		
-                        <p>28 de marzo del 2015 · Hotel Radisson</p>
+                        <p >28 de marzo del 2015 · Hotel Radisson</p>
                         <a href=""> INSCRÍBETE AQUÍ</a>
 		</div>
 		</li>
@@ -362,18 +389,18 @@ include ("./PHP/mostrarhome.php");
 		 
 	</div>
 
-<div class="four columns">
+<div id ="news"class="four columns">
     <h1 class="newsmargin" style="font-size: 20px; color: #FFF; margin: 0 0 8px 0;">NEWSLETTER</h1>
 		<div class="row collapse newsletter floatright">
+			<form method="post" id="formulario">
 			<div class="ten mobile-three columns">
-				<input type="text" class="nomargin" placeholder="Ingresa tu e-mail">
+				<input type="text" class="nomargin" name="email" placeholder="Ingresa tu e-mail">
 			</div>
 			<div class="two mobile-one columns">
-				<a href="#" class="postfix button expand">Enviar</a>
+				<input  type="button" id="btn_enviar" value="Enviar" href="#" class="postfix button expand">
 			</div>
-			
-
-
+			</form>
+<div id="respuesta"></div>
 		</div>
                 
 
