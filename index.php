@@ -206,9 +206,9 @@ include ("./PHP/mostrarhome.php");
 	<!-- slider-thumbs -->
 	<ul class="ei-slider-thumbs">
 		<li class="ei-slider-element">Current</li>
-                <li><a href="#">Slide 1</a><img src="images/imagen-rotator2.jpg" class="slideshowthumb" alt="thumb01" width="150"/></li>
-		<li><a href="#">Slide 2</a><img src="http://placehold.it/150x59/444" class="slideshowthumb" alt="thumb02"/></li>
-		<li><a href="#">Slide 3</a><img src="http://placehold.it/150x59/444" class="slideshowthumb" alt="thumb03"/></li>
+                <li><a href="#">Slide 1</a></li>
+		<li><a href="#">Slide 2</a></li>
+		<li><a href="#">Slide 3</a></li>
 		<!-- <li><a href="#">Slide 4</a><img src="http://placehold.it/150x59/444" class="slideshowthumb" alt="thumb04"/></li>
 		<li><a href="#">Slide 5</a><img src="http://placehold.it/150x59/444" class="slideshowthumb" alt="thumb05"/></li>
 		<li><a href="#">Slide 6</a><img src="http://placehold.it/150x59/444" class="slideshowthumb" alt="thumb06"/></li>
