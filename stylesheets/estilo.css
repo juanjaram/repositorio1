@@ -2,35 +2,49 @@
 .leermas, .leermas-1{
     background: #7bbb12;
     color: #FFFFFF;
-    padding: 4px 0;
-    
+    padding: 5px;
+    width: 95%;
     float: left;
     text-align: center;
     font-size: 22px;
     
     font-weight: bold;
 }
+.leermas1{
+    background: #7bbb12;
+    color: #FFFFFF;
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: 21px;
+    padding-bottom: 32px;
+    padding-top: 0px;
+    font-weight: bold;
+    height: 27px;
+    margin:8px 0 8px 0;
+}
 .leermas{
     margin: 0 0 20px 2%;
-    padding: 10px;
+    
 }
 .leermas-1{
     
     
     width: 100%;
-    padding: 0 0 7px 0;
+    
     margin-top: 5px;
+    margin-bottom: 8px;
     
     
     
 }
-.leermas:hover, .leermas-1:hover{
+.leermas:hover, .leermas-1:hover, .leermas1:hover{
     color: #FFFFFF;
 }
 .h5-3, .h4-3{
     color: #065248;
     float: left;
-    margin:0 0 4px 0;
+    margin:10px 0 -5px 0;
 }
 .h5-3{
     font-size: 22px;
@@ -68,10 +82,10 @@
     background: #7bbb12;
     color: #ffffff;
     text-align: center;
-    padding: 0 0;
-    width: 320px;
+    padding:0;
+    width: 100%;
     height: 27px;
-    margin: 170px 0 0 0;
+    margin: 190px 0 0 0;
     float: left;
     font-size: 22px;
     
@@ -104,19 +118,34 @@
 }
 
 @media (min-width: 1020px){
+    .leermas1{
+        margin: 18px 0 0 0;
+    }
     .videoynoticias{
-      height: 260px;
-
-       width: 1024px;
+      height: 230px;
+      padding: 15px 0 0 0;
+       width: 100%;
 
     }
-    .leermas, .leermas-1{
+    .h4video{
+        margin: 190px 0 0 0;
+    }
+   
+    
+    .leermas, .leermas-1, .leermas1{
         height: 27px;
+        
+
+    }
+    .leermas-1{
+       padding:  0 0 0;
+        margin: 29px 0 0 0;
     }
     .queeslaosteopatia{
         text-align: center;
         height: 264px;
         margin: 0 auto;
+        
         padding: 12px 0 0 0;
        // padding: 7px 101px 0 5%;
         
@@ -133,7 +162,8 @@
         padding: 3px;
     }
     .rotator{
-        width: 320px;
+        width: 100%;
+        
     }
     .atsa{
         width: 66.66%;
@@ -156,30 +186,35 @@
     }
 }
 
-@media (max-width: 1030px){
+@media (max-width: 1020px){
     .rotator{
         width: 100%;
     }
-}
-@media (max-width: 640px){
     .video{
         width: 100%;
+        margin: 0 0 0 -10px;
     }
-    .noticia{
-    width: 100%;
+    .noticia {
+    
+    
     
        
 }
+}
+@media (max-width: 640px){
+    
+    
     
 }
 
 
 /*         videos youtube              */
 .rotator{
-    width: 320px;
-    height: 195px; 
+    width: 100%;
+    max-width: 320px;
+    height: 190px; 
     position:relative; 
-    margin-left: 15px;
+    margin-left: 0;
     float: left;
 /*
     border-style:solid;
@@ -189,7 +224,7 @@ border-color: red;*/
 .controtator{
     display: none; 
     float: left;
-    width: 320px;
+    width: 100%;
 }
 
 .hrefvideo{
@@ -200,7 +235,7 @@ border-color: red;*/
 
 .imgvideo{
     float: left; 
-    width: 600px;
+    width: 100%;
 }
 
 .noticia, .imgnoticia{
@@ -218,7 +253,7 @@ border-color: green;
 
 
 .imgnoticia{
-   text-align: right; 
+   text-align: left; 
 
 }
 .imgnoticia > img{

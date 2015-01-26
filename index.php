@@ -229,11 +229,8 @@ include ("./PHP/mostrarhome.php");
 
 <!-- CONTENT 
 ================================================== -->
-<div class="row">
-	<div class="twelve columns">
-		
-
-	</div>
+<div class="row videoynoticias" >
+	
 	<div class="four columns">
 		
   <div class="video">
@@ -302,7 +299,7 @@ include ("./PHP/mostrarhome.php");
 	<div class="four columns">
 		
 
-  <div class=" noticia">
+  <div >
 		
 		<?php
                     while ($rnoticias=  mysql_fetch_array($sqlnoticias)){
@@ -317,7 +314,7 @@ include ("./PHP/mostrarhome.php");
         <h4 class="h4-3"><?php echo utf8_encode(substr($titulonoticia, 0, 18)); ?></h4>
         <p class="p-3"><?php echo utf8_encode(substr($bajadanoticia, 0, 80)); ?>...</p>
 		<p>
-			<a href="#" class="leermas-1" >Leer más</a>
+                    <a href="#" class="leermas1" >Leer más</a>
 		</p>
 			
                     
@@ -330,8 +327,8 @@ include ("./PHP/mostrarhome.php");
 
 	<div class="four columns">
 	
-<div class="imgnoticia ">
-            <img src="images/Noticias/<?php echo($fotonoticia); ?>" width="352" height="192"   style="box-shadow: 0 0 1px #000;"/>
+<div >
+            <img src="images/Noticias/<?php echo($fotonoticia); ?>" width="100%" height="200"   style="box-shadow: 0 0 1px #000; margin-top: 45px; margin-left: 0"/>
 		
 	</div>
     <?php } ?>
