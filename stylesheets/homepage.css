@@ -205,31 +205,44 @@
         margin: 0;
 }
 .ei-title h2{
-	font-size: 26px;
+	//font-size: 26px;
 	line-height: 40px;	
 	color: #fff;
-	padding: 0 40px;
+	padding: 3px 35px;
+        margin-bottom: 3px;
         
 }
 .ei-title h3{
-font-size: 35,8pt;
+font-size: 38px;
 line-height: 40px;
 text-transform: uppercase;
 color: #fff;
 background: #7bbb12;
-padding: 0 40px;
+padding: 3px 35px;
+text-shadow: 1px 2px 1px #000;
 }
-.ei-title p, .ei-title a{ 
+.p-r{ 
     color: #ffffff;
-    font-size: 24px;
+    font-size: 30px;
     margin: 15px 40px;
+    font-weight: normal;
+    
+    
+}
+.h2-r{
+    background: #065248;
+    width: 76.5%;
+    font-size: 36.5px;
+    text-shadow: 1px 2px 1px #000;
 }
 
-.ei-title a{
+.ei-title h2 a{
     background: #7bbb12;
     padding: 4px 10px;
     font-weight: bold;
-    
+    color: #ffffff;
+    font-size: 29px;
+    text-shadow: 1px 2px 1px #000;
 }
 .ei-slider-thumbs{
 	height: 13px;
