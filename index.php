@@ -363,12 +363,12 @@ include ("./PHP/mostrarhome.php");
 	</div>
 
 <div class="four columns">
-<<<<<<< HEAD
+
 		<h1 class="newsmargin">NEWSLETTER</h1>
 
-=======
+
     <h1 class="newsmargin" style="font-size: 20px; color: #FFF; margin: 0 0 8px 0;">NEWSLETTER</h1>
->>>>>>> c92bf37439793a669e65bf401a49b4d6f823bc48
+
 		<div class="row collapse newsletter floatright">
 			<div class="ten mobile-three columns">
 				<input type="text" class="nomargin" placeholder="Ingresa tu e-mail">
@@ -377,7 +377,7 @@ include ("./PHP/mostrarhome.php");
 				<a href="#" class="postfix button expand">Enviar</a>
 			</div>
 			
-<<<<<<< HEAD
+
 			
 <img class="log-footer" src="images/logo-atsa.png">
 
@@ -388,12 +388,12 @@ include ("./PHP/mostrarhome.php");
 
 </div>
 		
-=======
+
 
 
 		</div>
                 
->>>>>>> c92bf37439793a669e65bf401a49b4d6f823bc48
+
 
 
 
