@@ -212,7 +212,7 @@
         
 }
 .ei-title h3{
-font-size: 35,8;
+font-size: 35,8pt;
 line-height: 40px;
 text-transform: uppercase;
 color: #fff;
@@ -228,17 +228,24 @@ padding: 0 40px;
 .ei-title a{
     background: #7bbb12;
     padding: 4px 10px;
+    font-weight: bold;
     
 }
 .ei-slider-thumbs{
 	height: 13px;
 	margin: 0 auto;
 	position: relative;
+        top: -13px;
+        
+        z-index: 10;
 }
 .ei-slider-thumbs li{
 	position: relative;
 	float: left;
 	height: 100%;
+}
+.ei-slider-element{
+    background: rgba (123,187,18,0.6);
 }
 .ei-slider-thumbs li.ei-slider-element{
 	top: 0px;
@@ -251,6 +258,7 @@ padding: 0 40px;
 	background: rgba(0,0,0,0.9);
 }
 .ei-slider-thumbs li a{
+        color: rgba (255,255,255,0.6);
 	display: block;
 	text-indent: -9000px;
 	background: #333;

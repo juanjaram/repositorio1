@@ -123,7 +123,7 @@ include ("./PHP/mostrarhome.php");
 		<div class="ei-title">
                         <h3>PRIMERA JORNADA / TALLER NACIONAL</h3>
 			<h2>de Osteopatía en Concepción</h2>		
-                        <p>28 de marzo del 2015 - Hotel Radisson</p>
+                        <p>28 de marzo del 2015 · Hotel Radisson</p>
                         <a href=""> INSCRÍBETE AQUÍ</a>
 		</div>
 		</li>
@@ -195,9 +195,9 @@ include ("./PHP/mostrarhome.php");
 	<!-- slider-thumbs -->
 	<ul class="ei-slider-thumbs">
 		<li class="ei-slider-element">Current</li>
-                <li><a href="#">Slide 1</a><img src="images/imagen-rotator2.jpg" class="slideshowthumb" alt="thumb01" width="150"/></li>
-		<li><a href="#">Slide 2</a><img src="http://placehold.it/150x59/444" class="slideshowthumb" alt="thumb02"/></li>
-		<li><a href="#">Slide 3</a><img src="http://placehold.it/150x59/444" class="slideshowthumb" alt="thumb03"/></li>
+                <li><a href="#">Slide 1</a></li>
+		<li><a href="#">Slide 2</a></li>
+		<li><a href="#">Slide 3</a></li>
 		<!-- <li><a href="#">Slide 4</a><img src="http://placehold.it/150x59/444" class="slideshowthumb" alt="thumb04"/></li>
 		<li><a href="#">Slide 5</a><img src="http://placehold.it/150x59/444" class="slideshowthumb" alt="thumb05"/></li>
 		<li><a href="#">Slide 6</a><img src="http://placehold.it/150x59/444" class="slideshowthumb" alt="thumb06"/></li>
@@ -218,11 +218,8 @@ include ("./PHP/mostrarhome.php");
 
 <!-- CONTENT 
 ================================================== -->
-<div class="row">
-	<div class="twelve columns">
-		
-
-	</div>
+<div class="row videoynoticias" >
+	
 	<div class="four columns">
 		
   <div class="video">
@@ -253,7 +250,7 @@ include ("./PHP/mostrarhome.php");
   
 </ul>
 </div>
-     <h4 class="h4video">Revisa Nuestros Videos</h4>                 
+     <h4 class="h4video">Revisa nuestros videos</h4>                 
                     <div data-ertype="layout" data-ertemplatename="NONE" style="">
                       <div class="erimgMain" style="position: position; left:0;right:0;top:0;bottom:0;" data-erconfig="{__numTiles:3, scaleMode:'showAvailable', imgType:'main', __loopNextButton:false, __arrowButtonMode:'rollover'}">
                         <div class="erimgMain_slides" style="position: absolute; left:0; top:0; bottom:0; right:0;">
@@ -291,7 +288,7 @@ include ("./PHP/mostrarhome.php");
 	<div class="four columns">
 		
 
-  <div class=" noticia">
+  <div >
 		
 		<?php
                     while ($rnoticias=  mysql_fetch_array($sqlnoticias)){
@@ -302,11 +299,11 @@ include ("./PHP/mostrarhome.php");
                         $fotonoticia=$rnoticias['img_not'];
                     
                     ?>
-        <h5 class="h5-3"><?php echo utf8_encode(substr($epigrafenoticia, 0, 30)); ?></h5>
-        <h4 class="h4-3"><?php echo utf8_encode(substr($titulonoticia, 0, 18)); ?></h4>
-        <p class="p-3"><?php echo utf8_encode(substr($bajadanoticia, 0, 80)); ?>...</p>
+        <h5 class="h5-3"><?php echo utf8_encode(substr($epigrafenoticia, 0, 40)); ?></h5>
+        <h4 class="h4-3"><?php echo utf8_encode(substr($titulonoticia, 0, 55)); ?></h4>
+        <p class="p-3"><?php echo utf8_encode(substr($bajadanoticia, 0, 160)); ?>...</p>
 		<p>
-			<a href="#" class="leermas-1" >Leer Mas</a>
+                    <a href="#" class="leermas1" >Leer más</a>
 		</p>
 			
                     
@@ -319,8 +316,8 @@ include ("./PHP/mostrarhome.php");
 
 	<div class="four columns">
 	
-<div class="imgnoticia ">
-            <img src="images/Noticias/<?php echo($fotonoticia); ?>" width="352" height="192"   style="box-shadow: 0 0 1px #000;"/>
+<div >
+            <img src="images/Noticias/<?php echo($fotonoticia); ?>" width="100%" height="200"   style="box-shadow: 0 0 1px #000; margin-top: 45px; margin-left: 0"/>
 		
 	</div>
     <?php } ?>
@@ -336,9 +333,9 @@ include ("./PHP/mostrarhome.php");
 <!-- que es la Osteopatia 
 ================================================== -->
 <div class="queeslaosteopatia" style="background: #065248; margin: 0 0 -32px 0; ">
-<div class="row">
-    <div class="twelve columns">
-        <h4 class="h4-2" style="margin-left: -150px;">¿Qué es la Osteopatía?</h4>
+    <div class="row" style="margin: 0 auto;">
+    <div style="text-align: center;">
+        <h4 class="h4-2" >¿Qué es la Osteopatía?</h4>
         <p class="p-2">La osteopatía es un sistema holístico, que toma en cuenta la totalidad de las estructuras del 
             ser vivo y las interrelaciones que existen entre ellas. Es decir que todo sistema vivo es considerado como 
             una unidad.</p>
@@ -357,16 +354,21 @@ include ("./PHP/mostrarhome.php");
 
 	<div  class="four columns">
 		<h1><img src="images/logo-transp-footer.png"></h1>
-		 <a style="color:white; font-size:16px;">CONTACTANOS</a></br><a style="color:white; font-size:12px; font-weight:bold; ">OSTEOCHILE</br>
-		 Camino a Santa Juana, Kilometro 0,8. Concepciòn</br>
-		 +56 9 795 746 90</br>
-		 contacto@osteochile.cl</a>
+		 <a style="color:white; font-size:20px; font-weight: bold;">CONTÁCTANOS</a><br/>
+                 <a style="color:white; font-size:14px; text-align: left;">OSTEOCHILE<br/>
+		 Camino a Santa Juana, kilómetro 0,8. Concepción <br/>
+                 +56 9 795 746 90<br/>
+                 contacto@osteochile.cl</a>
 		 
 	</div>
 
 <div class="four columns">
+<<<<<<< HEAD
 		<h1 class="newsmargin">NEWSLETTER</h1>
 
+=======
+    <h1 class="newsmargin" style="font-size: 20px; color: #FFF; margin: 0 0 8px 0;">NEWSLETTER</h1>
+>>>>>>> c92bf37439793a669e65bf401a49b4d6f823bc48
 		<div class="row collapse newsletter floatright">
 			<div class="ten mobile-three columns">
 				<input type="text" class="nomargin" placeholder="Ingresa tu e-mail">
@@ -375,6 +377,7 @@ include ("./PHP/mostrarhome.php");
 				<a href="#" class="postfix button expand">Enviar</a>
 			</div>
 			
+<<<<<<< HEAD
 			
 <img class="log-footer" src="images/logo-atsa.png">
 
@@ -385,16 +388,23 @@ include ("./PHP/mostrarhome.php");
 
 </div>
 		
+=======
+
+
+		</div>
+                
+>>>>>>> c92bf37439793a669e65bf401a49b4d6f823bc48
 
 
 
 	</div>
 
 <div class="four columns">
-		<h1>REDES SOCIALES</h1>
+    <h1 class="h1redessociales" style="font-weight: bold; font-size: 20px; color: #FFF;">REDES SOCIALES</h1>
                 <a href="https://www.facebook.com/Osteochile"><i class="fa fa-facebook fa-2x  face" ></i></a>&nbsp;
-                <a href="https://twitter.com/osteochile"><i class="fa fa-twitter fa-2x  twi " ></i></a>&nbsp;
-                <a href="https://www.youtube.com/osteochile/"><i class="fa fa-youtube fa-2x you"></i></a>
+                <a href="https://www.youtube.com/osteochile/"><i class="fa fa-youtube fa-2x you"></i></a>&nbsp;
+                <a href="https://twitter.com/osteochile"><i class="fa fa-twitter fa-2x  twi " ></i></a>
+                
                 <!-- -->
 
                 
@@ -416,7 +426,13 @@ include ("./PHP/mostrarhome.php");
 		
 	</div>
 	
+        <div class="columns atsa">
+            <img style="float: left;"  src="images/logo-atsa.png"/>
+	<div style="color:white; font-size: 14px; float: left; width: 70%; margin: 30px 0 0 13px; text-align: left;">
+            Con el respaldo académico de la Escuela de Osteopatía<br/> A.T.S.A. (Francia), 40 años enseñando la Osteopatía.
+        </div>
 
+        </div>
 
 
 
