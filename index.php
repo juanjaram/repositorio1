@@ -363,12 +363,7 @@ include ("./PHP/mostrarhome.php");
 	</div>
 
 <div class="four columns">
-
-		<h1 class="newsmargin">NEWSLETTER</h1>
-
-
     <h1 class="newsmargin" style="font-size: 20px; color: #FFF; margin: 0 0 8px 0;">NEWSLETTER</h1>
-
 		<div class="row collapse newsletter floatright">
 			<div class="ten mobile-three columns">
 				<input type="text" class="nomargin" placeholder="Ingresa tu e-mail">
@@ -378,22 +373,9 @@ include ("./PHP/mostrarhome.php");
 			</div>
 			
 
-			
-<img class="log-footer" src="images/logo-atsa.png">
-
-
-
-	<div class="text-footer"> Con el respaldo Academico de la Escuela de Osteopatìa </br> A.T.S.A (Francia), 40 años enseñando la Osteopatìa</div>
-
-
-</div>
-		
-
-
 
 		</div>
                 
-
 
 
 
