@@ -1,10 +1,10 @@
 .colorme {color:#33877d;}
-.nav-bar > li:hover, .nav-bar > li a:hover  { color: white; }
+.nav-bar > li:hover, .nav-bar > li a:hover  { color: white }
 .nav-bar > li.active > a {  }
 ul.flyout li a:hover, .nav-bar li ul li a:hover {color:#749f93;}
 .sectiontitle {border-left: 4px solid #33877d;}
 ::-moz-selection{background:#33877d;color:#fff;}
-::selection{background:#33877d;color:#fff;}
+::selection{background:#33877d;color:white;}
 .ca-menu li:hover .ca-main {color: red;}
 .topborder { border-top:4px solid #33877d;}
 .readmore {background:#33877d;}

@@ -83,31 +83,20 @@ include ("./PHP/mostrarhome.php");
 					</li>
 					
 					<li>
-					<a href="#">CLINICA</a>
-						<ul>
-						<li class="border-ul"><a href="blogpage1.html">Blog page style 1</a></li>
-						<li><a href="blogpage2.html">Blog page style 2</a></li>
-						<li><a href="blogpage3.html">Blog page style 3</a></li>
-						<li><a href="blogsinglepost.html">Single post</a></li>
-						</ul>
+					<a href="#">CLÌNICA</a>
+						
 					</li>
 					
 					<li>
 					<a href="#">EMPRESAS</a>
-						<ul>
-						<li class="border-ul"><a href="about.html">About us</a></li>
-						<li><a href="services.html">Services</a></li>						
-						</ul>
+						
 					</li>
 					
 					
 
 					<li>
 					<a href="#">DEPORTE</a>
-						<ul>
-						<li class="border-ul"><a href="about.html">About us</a></li>
-						<li><a href="services.html">Services</a></li>						
-						</ul>
+						
 					</li>
 					
 					<li>
@@ -377,6 +366,7 @@ include ("./PHP/mostrarhome.php");
 
 <div class="four columns">
 		<h1 class="newsmargin">NEWSLETTER</h1>
+
 		<div class="row collapse newsletter floatright">
 			<div class="ten mobile-three columns">
 				<input type="text" class="nomargin" placeholder="Ingresa tu e-mail">
@@ -385,12 +375,16 @@ include ("./PHP/mostrarhome.php");
 				<a href="#" class="postfix button expand">Enviar</a>
 			</div>
 			
-<img  style="margin-top:15%" src="images/logo-atsa.png">
+			
+<img class="log-footer" src="images/logo-atsa.png">
 
-		</div>
 
-		<div style="color:white; margin-top:20%; position:relative; left:-23%; font-weight:bold; ">Con el respaldo Academico de la Escuela de Osteopatìa </br> A.T.S.A (Francia), 40 años enseñando la Osteopatìa</div>
 
+	<div class="text-footer"> Con el respaldo Academico de la Escuela de Osteopatìa </br> A.T.S.A (Francia), 40 años enseñando la Osteopatìa</div>
+
+
+</div>
+		
 
 
 

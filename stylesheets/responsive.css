@@ -219,7 +219,7 @@ MAX-WITH 480
 	ul.flyout li a, .nav-bar li ul li a {margin:0px;height:100%;}
 	.name {display:block;}
 	.noleftmarg {padding:0px !important;}	
-	.logo { margin-top: 20px;margin-bottom:40px;}
+	.logo { margin-top: 10px;margin-bottom:40px;}
 	.ei-slider {height:260px;}
 	.responsiveslide {margin-left: 0px !important;width:100% !Important;height: 200px !important;}
 	.newsmargin{margin-left:0px;}
@@ -233,6 +233,10 @@ MAX-WITH 480
     #testimonials blockquote{height:260px !important;}
 	.noslide h3 {padding:0px;}
 	.ca-menu li {width:100%;float:none;}
+	.text-footer{
+     float: left;
+margin-top: -5px;
+	}
 }
 
 
