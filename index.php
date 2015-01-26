@@ -365,8 +365,8 @@ include ("./PHP/mostrarhome.php");
 
 	<div  class="four columns">
 		<h1><img src="images/logo-transp-footer.png"></h1>
-		 <a style="color:white; font-size:26px; font-weight: bold;">CONTÁCTANOS</a><br/>
-                 <a style="color:white; font-size:19px; text-align: left;">OSTEOCHILE<br/>
+		 <a style="color:white; font-size:20px; font-weight: bold;">CONTÁCTANOS</a><br/>
+                 <a style="color:white; font-size:14px; text-align: left;">OSTEOCHILE<br/>
 		 Camino a Santa Juana, kilómetro 0,8. Concepción <br/>
                  +56 9 795 746 90<br/>
                  contacto@osteochile.cl</a>
@@ -374,7 +374,7 @@ include ("./PHP/mostrarhome.php");
 	</div>
 
 <div class="four columns">
-    <h1 class="newsmargin" style="font-size: 26px; color: #FFF; margin: 0 0 8px 0;">NEWSLETTER</h1>
+    <h1 class="newsmargin" style="font-size: 20px; color: #FFF; margin: 0 0 8px 0;">NEWSLETTER</h1>
 		<div class="row collapse newsletter floatright">
 			<div class="ten mobile-three columns">
 				<input type="text" class="nomargin" placeholder="Ingresa tu e-mail">
@@ -393,7 +393,7 @@ include ("./PHP/mostrarhome.php");
 	</div>
 
 <div class="four columns">
-    <h1 class="h1redessociales" style="font-weight: bold; font-size: 26px; color: #FFF;">REDES SOCIALES</h1>
+    <h1 class="h1redessociales" style="font-weight: bold; font-size: 20px; color: #FFF;">REDES SOCIALES</h1>
                 <a href="https://www.facebook.com/Osteochile"><i class="fa fa-facebook fa-2x  face" ></i></a>&nbsp;
                 <a href="https://www.youtube.com/osteochile/"><i class="fa fa-youtube fa-2x you"></i></a>&nbsp;
                 <a href="https://twitter.com/osteochile"><i class="fa fa-twitter fa-2x  twi " ></i></a>
@@ -421,8 +421,8 @@ include ("./PHP/mostrarhome.php");
 	
         <div class="columns atsa">
             <img style="float: left;"  src="images/logo-atsa.png"/>
-	<div style="color:white; font-size: 19px; float: left; width: 70%; margin: 30px 0 0 13px; text-align: left;">
-            Con el respaldo académico de la Escuela de Osteopatía A.T.S.A. (Francia), 40 años enseñando la Osteopatía.
+	<div style="color:white; font-size: 14px; float: left; width: 70%; margin: 30px 0 0 13px; text-align: left;">
+            Con el respaldo académico de la Escuela de Osteopatía<br/> A.T.S.A. (Francia), 40 años enseñando la Osteopatía.
         </div>
 
         </div>
