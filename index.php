@@ -149,23 +149,34 @@ $(function(){
                     <img src="images/imagen-rotator2.jpg" alt="image01" class="responsiveslide">
 		<div class="ei-title">
                         <h3>PRIMERA JORNADA / TALLER NACIONAL</h3>
+<<<<<<< HEAD
 			<h2>de Osteopatía en Concepción</h2>		
                         <p >28 de marzo del 2015 · Hotel Radisson</p>
                         <a href=""> INSCRÍBETE AQUÍ</a>
+=======
+                        <h2 class="h2-r">de Osteopatía en Concepción</h2>
+                        <h2 class="p-r">28 de marzo del 2015 · Hotel Radisson</h2>
+                        <h2 ><a href=""> INSCRÍBETE AQUÍ</a></h2>
+                        		
+                        
+>>>>>>> a5642daf663aea25149a9fe02a7ca62c321ad9af
 		</div>
 		</li>
 		<li>
 		<img src="http://placehold.it/1400x500/222" alt="image02" class="responsiveslide">
 		<div class="ei-title">
-			<h2>Dare to</h2>
-			<h3>Hope</h3>
-		</div>
+			<h3>TITLULO PRINCIPAL / PRIMERO</h3>
+                        <h2 class="h2-r">titulo secundario</h2>
+                        <h2 class="p-r">Texto Fecha y lugar</h2>
+                        <h2 ><a href=""> BOTON INSCRIBIR</a></h2>
 		</li>
 		<li>
 		<img src="http://placehold.it/1400x500/222" alt="image03" class="responsiveslide">
 		<div class="ei-title">
-			<h2>Dare to</h2>
-			<h3>Smile</h3>
+			<h3>TITLULO PRINCIPAL / PRIMERO</h3>
+                        <h2 class="h2-r">titulo secundario</h2>
+                        <h2 class="p-r">Texto Fecha y lugar</h2>
+                        <h2 ><a href=""> BOTON INSCRIBIR</a></h2>
 		</div>
 		</li>
                 <!--
