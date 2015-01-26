@@ -310,9 +310,9 @@ include ("./PHP/mostrarhome.php");
                         $fotonoticia=$rnoticias['img_not'];
                     
                     ?>
-        <h5 class="h5-3"><?php echo utf8_encode(substr($epigrafenoticia, 0, 30)); ?></h5>
-        <h4 class="h4-3"><?php echo utf8_encode(substr($titulonoticia, 0, 18)); ?></h4>
-        <p class="p-3"><?php echo utf8_encode(substr($bajadanoticia, 0, 80)); ?>...</p>
+        <h5 class="h5-3"><?php echo utf8_encode(substr($epigrafenoticia, 0, 40)); ?></h5>
+        <h4 class="h4-3"><?php echo utf8_encode(substr($titulonoticia, 0, 55)); ?></h4>
+        <p class="p-3"><?php echo utf8_encode(substr($bajadanoticia, 0, 160)); ?>...</p>
 		<p>
                     <a href="#" class="leermas1" >Leer más</a>
 		</p>
